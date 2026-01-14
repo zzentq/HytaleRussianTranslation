@@ -1,0 +1,2280 @@
+# === assetEditor ===
+assetEditor.mainMenu.connection.connecting = Подключение к серверу...
+assetEditor.mainMenu.connection.authenticating = Аутентификация...
+assetEditor.mainMenu.title = Открыть редактор
+assetEditor.mainMenu.cosmeticsEditor = Внешний вид
+assetEditor.mainMenu.servers = Серверы
+assetEditor.mainMenu.disconnectionContainer.title = Отключено от сервера!
+assetEditor.mainMenu.disconnectionContainer.reconnect = Переподключиться
+assetEditor.mainMenu.connection.error.failedAuthentication = Не удалось пройти аутентификацию на сервере
+assetEditor.mainMenu.connection.error.failedToEstablishConnection = Не удалось установить соединение с сервером
+assetEditor.mainMenu.settingsButton = Настройки
+
+assetEditor.settings.title = Настройки
+
+assetEditor.settings.setting.diagnosticMode = Режим диагностики
+assetEditor.settings.setting.useSystemLanguage = Использовать системный язык
+assetEditor.settings.setting.language = Язык
+assetEditor.settings.setting.fullscreen = Полноэкранный режим
+assetEditor.settings.setting.exportPath = Папка экспорта
+assetEditor.settings.setting.exportPath.dialogTitle = Выберите папку для экспорта
+assetEditor.settings.setting.exportPath.dialogConfirmationButton = Выбрать как папку экспорта
+
+assetEditor.mainMenu.errors.failedToSaveServerList = Не удалось сохранить список серверов
+
+assetEditor.mainMenu.serverModal.titleAdd = Добавить сервер
+assetEditor.mainMenu.serverModal.titleEdit = Редактировать сервер
+assetEditor.mainMenu.serverModal.errors.enterName = Пожалуйста, введи название
+assetEditor.mainMenu.serverModal.errors.enterHostname = Пожалуйста, введи имя хоста
+assetEditor.mainMenu.serverModal.errors.nameAlreadyInUse = Это название уже используется.
+
+assetEditor.mainMenu.removeServerModal.title = Удалить сервер "{serverName}" из списка?
+
+assetEditor.ipcServerConfirmation.title = Подключиться к серверу?
+assetEditor.ipcServerConfirmation.description = Хочешь отключиться от этого сервера и подключиться к "{serverName}"?
+
+assetEditor.assetBrowser.searchAssetsPlaceholder = Поиск ресурсов
+assetEditor.assetBrowser.findAsset = Найти ресурс
+assetEditor.assetBrowser.delete = Удалить
+assetEditor.assetBrowser.rename = Переименовать
+assetEditor.assetBrowser.duplicate = Дублировать
+assetEditor.assetBrowser.findInFolder = Найти в папке
+assetEditor.assetBrowser.copyPath = Копировать путь
+assetEditor.assetBrowser.showInFinder = Показать в Finder
+assetEditor.assetBrowser.showInExplorer = Показать в Проводнике
+assetEditor.assetBrowser.createInFolder = Создать {assetType} в папке
+assetEditor.assetBrowser.createAssetInFolder = Создать ресурс в папке
+assetEditor.assetBrowser.createFolder = Создать папку
+assetEditor.assetBrowser.create = Создать {assetType}
+assetEditor.assetBrowser.tabs.cosmetics = Внешний вид
+assetEditor.assetBrowser.tabs.server = Сервер
+assetEditor.assetBrowser.tabs.common = Общие
+assetEditor.assetBrowser.tooltips.collapseAll = Свернуть все директории
+assetEditor.assetBrowser.tooltips.createNewAsset = Создать новый ресурс
+assetEditor.assetBrowser.tooltips.filter = Фильтр
+assetEditor.assetBrowser.export = Экспортировать ресурс
+assetEditor.assetBrowser.exportAndDiscard = Экспортировать и отменить изменения
+assetEditor.assetBrowser.discard = Отменить изменения
+
+assetEditor.changeConfirmationModal.title = Требуется подтверждение
+assetEditor.changeConfirmationModal.text = Изменение этого значения удалит некоторые существующие свойства.
+
+assetEditor.assetReferenceOrInlineEditor.useExisting = Использовать существующий
+assetEditor.assetReferenceOrInlineEditor.createEmbedded = Создать встроенный
+assetEditor.assetReferenceOrInlineEditor.reference = Ссылка на {assetType}
+
+assetEditor.assetDropdownEditor.openAssetTooltip = Открыть ресурс в новой вкладке
+assetEditor.assetDropdownEditor.createAssetTooltip = Создать и назначить новый {assetType}
+
+assetEditor.listEditor.empty = Этот список пуст
+assetEditor.listEditor.header = Элементов в списке: {count}
+assetEditor.mapEditor.empty = Эта карта пуста
+assetEditor.mapEditor.header = Элементов в карте: {count}
+
+assetEditor.jsonObjectEditor.json = JSON
+assetEditor.jsonObjectEditor.jsonParseError = JSON: Ошибка разбора
+
+assetEditor.changelogModal.newVersion = Новое
+assetEditor.changelogModal.title = Что нового
+
+assetEditor.backends.local = Редактирование: Локальные ресурсы
+assetEditor.backends.server = Редактирование: Серверные ресурсы
+assetEditor.backends.tooltip = Нажми, чтобы открыть папку экспорта
+
+assetEditor.mode.editor = Редактор
+assetEditor.mode.source = Исходный код
+
+assetEditor.editor.searchProperties = Поиск свойств
+
+assetEditor.property.title = Свойство "{name}"
+assetEditor.property.remove = Удалить
+assetEditor.property.renameKey = Переименовать ключ
+assetEditor.property.moveDown = Переместить вниз
+assetEditor.property.moveUp = Переместить вверх
+assetEditor.property.createEmbeddedAsset = Преобразовать во встроенный ресурс
+assetEditor.property.createDedicatedAsset = Преобразовать в отдельный ресурс
+assetEditor.property.collapseAllEntries = Свернуть все элементы
+assetEditor.property.uncollapseAllEntries = Развернуть все элементы
+assetEditor.property.openAssetInNewTab = Открыть ресурс в новой вкладке
+assetEditor.property.copyAndReferenceAsset = Скопировать и создать ссылку на ресурс
+assetEditor.property.createAndReferenceAsset = Создать и создать ссылку на ресурс
+assetEditor.property.insertSiblingBefore = Вставить элемент перед
+assetEditor.property.insertSiblingAfter = Вставить элемент после
+assetEditor.property.list = Список
+assetEditor.property.map = Карта
+assetEditor.property.copyValue = Копировать значение
+assetEditor.property.pasteValue = Вставить значение
+assetEditor.property.map.insertLabel = Вставить
+assetEditor.property.errors.keyAlreadyExists = Этот ключ уже используется
+
+assetEditor.property.tooltip.arrayItem = Индекс: {index}
+assetEditor.property.tooltip.mapItem = Ключ: {key}
+assetEditor.property.tooltip.inheritedProperty = Унаследовано от {asset} => {value}
+assetEditor.property.tooltip.listEntries = Элементов в списке: {count}
+assetEditor.property.tooltip.objectEntries = Элементов в объекте: {count}
+
+assetEditor.configEditor.button.collapseAll = Свернуть все
+assetEditor.configEditor.button.expandAll = Развернуть все
+assetEditor.configEditor.button.showDefinedProperties = Переключить: Показывать только заданные свойства
+assetEditor.configEditor.button.quickInspect = Быстрый просмотр
+
+assetEditor.sourceEditor.apply = Применить изменения
+assetEditor.sourceEditor.discard = Отменить изменения
+assetEditor.sourceEditor.unsavedChangesModal.title = Несохранённые изменения
+assetEditor.sourceEditor.unsavedChangesModal.text = В редакторе кода есть несохранённые изменения. Ты уверен, что хочешь продолжить?
+assetEditor.sourceEditor.unsavedChangesModal.discardChanges = Отменить изменения
+
+assetEditor.assetSelector.findAsset = Найти ресурс...
+
+assetEditor.fileSelector.placeholder = Выбери файл
+assetEditor.fileSelector.filesSelected = Выбрано файлов: {count}
+assetEditor.fileSelector.findFile = Найти файл...
+assetEditor.fileSelector.createDirectory = Создать папку
+assetEditor.fileSelector.newDirectoryNamePlaceholder = Имя новой папки...
+
+assetEditor.timelineEditor.insertAt = Вставить значение в {hour}
+assetEditor.timelineEditor.updateAt = Час: {hour}\n\
+\n\
+Нажми правой кнопкой, чтобы удалить
+
+assetEditor.modal.applyChangesLocally = Также применить изменение локально
+
+assetEditor.deleteAssetModal.title = Удалить ресурс?
+assetEditor.deleteAssetModal.text = Ты уверен, что хочешь удалить "{assetId}"?
+assetEditor.deleteAssetModal.confirmButton = Удалить
+
+assetEditor.deleteDirectoryModal.title = Удалить папку?
+assetEditor.deleteDirectoryModal.text = Ты уверен, что хочешь удалить "{path}"?
+assetEditor.deleteDirectoryModal.confirmButton = Удалить
+
+assetEditor.keyModal.renameTitle = Переименовать ключ
+assetEditor.keyModal.insertTitle = Вставить ключ
+assetEditor.keyModal.renameButton = Переименовать
+assetEditor.keyModal.insertButton = Вставить
+assetEditor.keyModal.errors.existingKey = Элемент с таким ключом уже существует!
+assetEditor.keyModal.errors.invalidProperty = Недопустимое свойство
+assetEditor.keyModal.errors.fieldEmpty = Пожалуйста, введи новый ключ!
+
+assetEditor.iconExporterModal.export = Сохранить значок
+assetEditor.iconExporterModal.reset = Сбросить к настройкам по умолчанию
+assetEditor.iconExporterModal.previewZoom = Масштаб предпросмотра
+assetEditor.iconExporterModal.rotationX = Поворот X
+assetEditor.iconExporterModal.rotationY = Поворот Y
+assetEditor.iconExporterModal.rotationZ = Поворот Z
+assetEditor.iconExporterModal.translationX = Позиция X
+assetEditor.iconExporterModal.translationY = Позиция Y
+assetEditor.iconExporterModal.scale = Масштаб
+assetEditor.iconExporterModal.errors.invalidConfig = Этот предмет не настроен должным образом для отображения предпросмотра
+
+assetEditor.renameModal.titleAsset = Переименовать ресурс
+assetEditor.renameModal.titleFolder = Переименовать папку
+assetEditor.renameModal.renameButton = Переименовать
+assetEditor.renameModal.newId = Новый ID
+assetEditor.renameModal.newName = Новое имя
+assetEditor.renameModal.errors.invalidId = Пожалуйста, введи корректный ID. ID может содержать только буквы и цифры, а также символ _ для обозначения определённых категорий.
+assetEditor.renameModal.warning = Внимание: Переименование ресурса не изменит ссылки на него в других JSON-файлах. Это действие может нарушить работу других ресурсов.
+
+assetEditor.idValidation.empty = Поле ID не может быть пустым
+assetEditor.idValidation.minLength = ID должен состоять как минимум из {count} символов
+assetEditor.idValidation.maxLength = ID не может состоять более чем из {count} символов
+assetEditor.idValidation.onlyLettersAndDigits = ID может содержать только буквы и цифры
+assetEditor.idValidation.firstUppercase = Первая буква ID или после символа подчёркивания должна быть заглавной
+assetEditor.idValidation.firstLetter = Первый символ ID или после символа подчёркивания должен быть буквой
+assetEditor.idValidation.underscoreEmpty = ID не может начинаться или заканчиваться символом подчёркивания, и символ подчёркивания не может следовать за другим символом подчёркивания
+
+assetEditor.createAssetModal.title = Создать новый ресурс {assetType}
+assetEditor.createAssetModal.assetPack = Пакет ресурсов
+assetEditor.createAssetModal.assetType = Тип ресурса
+assetEditor.createAssetModal.folder = Папка
+assetEditor.createAssetModal.assetId = Уникальный ID ресурса
+assetEditor.createAssetModal.assetIdHelp = Разрешённые символы: A-Z 0-9 _\\
+Примеры: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
+assetEditor.createAssetModal.copyAsset = Копировать ресурс
+assetEditor.createAssetModal.tab.properties = Свойства
+assetEditor.createAssetModal.tab.source = Исходный код
+assetEditor.createAssetModal.createButton = Создать
+assetEditor.createAssetModal.assetPackDropdown.noEntries = Сначала создай новый пакет ресурсов
+assetEditor.createAssetModal.errors.existingId = Ресурс с таким ID уже существует!
+assetEditor.createAssetModal.errors.invalidAssetType = Недопустимый тип ресурса
+assetEditor.createAssetModal.errors.noAssetPackSelected = Необходимо выбрать пакет ресурсов для создания ресурса
+
+assetEditor.exportModal.title = Недавно изменённые ресурсы
+assetEditor.exportModal.deselectAllButton = Снять выделение со всех
+assetEditor.exportModal.selectAllButton = Выбрать все
+assetEditor.exportModal.exportButton = Экспортировать выбранное
+assetEditor.exportModal.launcherAssetsWarning = Ресурсы не могут быть экспортированы при использовании ресурсов из лаунчера!
+assetEditor.exportModal.discardChangesModal.title = Отменить изменения?
+assetEditor.exportModal.discardChangesModal.text = Отменить изменения {assetId} ({assetType})
+assetEditor.exportModal.discardChangesModal.confirmButton = Отменить изменения
+assetEditor.exportModal.discardChangesCheckBox = Отменить изменения на сервере после экспорта
+assetEditor.exportModal.discardChangesCheckBoxDescription = Если эта опция активна, исходное состояние выбранных ресурсов будет восстановлено на сервере путём повторной загрузки этих ресурсов из папки ресурсов. Это полезно, когда работа над определёнными ресурсами завершена и готова к отправке в репозиторий, так как эти файлы будут удалены из этого списка. Если сервер и клиент используют одну и ту же папку ресурсов (например, в одиночной игре), то эта опция просто удаляет эти записи из списка выше.
+assetEditor.exportModal.discardButtonTooltip = Отменить изменения
+assetEditor.exportModal.columns.file = Файл
+assetEditor.exportModal.columns.lastChangeDate = Последнее изменение
+assetEditor.exportModal.columns.lastChangeUsername = Кем
+assetEditor.exportModal.tooltips.deleted = Ресурс был удалён
+assetEditor.exportModal.tooltips.new = Ресурс был создан
+assetEditor.exportModal.tooltips.renamed = Ресурс был переименован из {oldPath}
+assetEditor.exportModal.tooltips.changed = Ресурс был изменён
+
+assetEditor.filterModal.title = Фильтр по типам ресурсов
+assetEditor.filterModal.searchPlaceholder = Поиск типов ресурсов
+
+assetEditor.iconMassExportModal.title = Массовый экспорт значков предметов
+assetEditor.iconMassExportModal.startButton = Начать экспорт
+assetEditor.iconMassExportModal.statusLabel = Статус:
+assetEditor.iconMassExportModal.iconSize = Размер значка
+assetEditor.iconMassExportModal.starting = Запуск...
+assetEditor.iconMassExportModal.status = {completeCount}/{totalCount} – {percentage}% - Ошибок: {failedCount} - Пропущено: {skippedCount}
+
+assetEditor.errors.invalidAssetsDirectory = Корректная папка ресурсов должна содержать папки Server и Common
+assetEditor.errors.failedToFetchAsset = Не удалось загрузить ресурс "{path}"
+assetEditor.errors.failedToFetchParent = Произошла ошибка при загрузке родительского ресурса
+assetEditor.errors.recursiveParent = Ресурс не может быть загружен, так как некоторые родительские ресурсы ссылаются друг на друга (циклическая зависимость)
+assetEditor.errors.errorOccurredFetching = Произошла ошибка при загрузке этого ресурса
+assetEditor.errors.assetNotFound = Этот ресурс не существует
+assetEditor.errors.unknownAssetType = Неизвестный тип ресурса "{assetType}"
+assetEditor.errors.fileFormatNotSupported = Этот формат файла не поддерживается
+assetEditor.errors.invalidJson = Недопустимый JSON
+assetEditor.errors.invalidAssetType = Недопустимый тип ресурса
+assetEditor.errors.missingId = Пожалуйста, введи ID
+assetEditor.errors.failedExportErrors = Не удалось экспортировать ресурсы, так как некоторые содержат ошибки проверки
+assetEditor.errors.failedToSetupAssetTypes = Не удалось настроить типы ресурсов
+assetEditor.errors.failedToLoadAssetFiles = Не удалось загрузить файлы ресурсов
+assetEditor.errors.failedToLoadCommonAssetFiles = Не удалось загрузить файлы общих ресурсов
+assetEditor.errors.failedToRenameAsset = Не удалось переименовать ресурс
+assetEditor.errors.failedToDeleteAsset = Не удалось удалить ресурс
+assetEditor.errors.failedToCreateAsset = Не удалось создать ресурс
+assetEditor.errors.assetTypeNotSetupForEditor = Этот тип ресурса не настроен для редактирования через интерфейс редактора
+assetEditor.errors.createDirectoryInvalidPath = Не удалось создать папку, так как она находится за пределами папки ресурсов
+assetEditor.errors.createDirectoryExists = Не удалось создать папку, так как она уже существует
+assetEditor.errors.createDirectoryOther = Не удалось создать папку
+assetEditor.errors.renameDirectoryInvalidPath = Не удалось переименовать папку, так как она находится за пределами папки ресурсов
+assetEditor.errors.renameDirectoryExists = Не удалось переименовать папку, так как папка с таким именем уже существует
+assetEditor.errors.renameDirectoryMissing = Не удалось переименовать папку, так как папка для переименования не существует
+assetEditor.errors.renameDirectoryOther = Не удалось переименовать папку
+assetEditor.errors.deleteDirectoryInvalidPath = Не удалось удалить папку, так как она находится за пределами папки ресурсов
+assetEditor.errors.deleteDirectoryMissing = Не удалось удалить папку, так как папка не существует
+assetEditor.errors.deleteDirectoryOther = Не удалось удалить папку
+assetEditor.errors.directoryInvalidCharacters = Имена папок не могут содержать символы, такие как \ или /
+assetEditor.errors.exportInProgress = Экспорт всё ещё выполняется
+assetEditor.errors.cannotRevealUnexportedAsset = Невозможно показать файл в проводнике, так как файл ещё не был экспортирован.
+assetEditor.errors.cannotPasteWrongType = Невозможно вставить значение: неверный тип
+
+assetEditor.messages.assetExport.success = Сохранено ресурсов: {count}
+assetEditor.messages.assetExport.none = Ресурсы не были сохранены
+assetEditor.messages.assetExport.errors = Не удалось сохранить ресурсы, так как некоторые содержат ошибки
+assetEditor.messages.assetExport.failedSaving = Не удалось сохранить ресурсы
+assetEditor.messages.undoStackEmpty = Нечего отменять
+assetEditor.messages.redoStackEmpty = Нечего повторять
+assetEditor.messages.directoryDeleted = Папка успешно удалена
+assetEditor.messages.directoryCreated = Папка успешно создана
+
+assetEditor.unexportedAssetsModal.quitTitle = Выйти из клиента?
+assetEditor.unexportedAssetsModal.continueTitle = Продолжить?
+assetEditor.unexportedAssetsModal.text = В редакторе ресурсов есть неэкспортированные изменения.
+assetEditor.unexportedAssetsModal.quitButton = Всё равно выйти
+assetEditor.unexportedAssetsModal.continueButton = Всё равно продолжить
+
+assetEditor.diagnosticsTooltip.errors = Ошибки:
+assetEditor.diagnosticsTooltip.warnings = Предупреждения:
+assetEditor.diagnosticsTooltip.hasChildErrors = Некоторые дочерние свойства содержат ошибки.
+assetEditor.diagnosticsTooltip.hasChildWarnings = Некоторые дочерние свойства содержат предупреждения.
+
+assetEditor.configEditor.errors.failedToLoad = Не удалось загрузить редактор. Проверь лог для получения подробностей
+assetEditor.configEditor.showAllProperties = Показать все свойства
+
+assetEditor.tabs.popup.close = Закрыть
+assetEditor.tabs.popup.closeAll = Закрыть все
+assetEditor.tabs.popup.copyId = Копировать ID
+
+assetEditor.weatherDaytimeBar.togglePauseTime = Поставить на паузу/продолжить время
+assetEditor.weatherDaytimeBar.previousDay = Установить на предыдущий день
+assetEditor.weatherDaytimeBar.nextDay = Установить на следующий день
+assetEditor.weatherDaytimeBar.lockTimeAndWeather = Нажми, чтобы переключить сохранение текущей погоды и времени даже после выхода из редактора ресурсов
+assetEditor.weatherDaytimeBar.currentDay = День {day, number}
+
+assetEditor.initializeButton.inactive = Инициализировать объект
+assetEditor.initializeButton.active = Удалить объект
+
+assetEditor.fileSaveStatus.Saved = Изменения сохранены
+assetEditor.fileSaveStatus.Saving = Сохранение изменений...
+assetEditor.fileSaveStatus.Unsaved = Несохранённые изменения
+
+assetEditor.options.title = Опции
+assetEditor.options.disconnect = Отключиться от сервера
+assetEditor.options.exportItemIcons = Экспортировать значки предметов
+assetEditor.options.settings = Настройки
+
+assetEditor.tabs.tooltip = Ресурс {type}\n\
+\n\
+Пакет: {pack}
+
+assetEditor.packModal.title.edit = Редактировать пакет
+assetEditor.packModal.title.add = Добавить пакет
+assetEditor.packModal.readOnlyMessage = Этот пакет доступен только для чтения и не может быть отредактирован.
+assetEditor.packModal.editModeNote = Изменение имени или группы пакета ресурсов вступит в силу только после перезапуска сервера.
+assetEditor.packModal.identifierChangeWarning = ВНИМАНИЕ: Ты изменяешь идентификатор пакета (имя или группу). Это изменение вступит в силу немедленно, но может вызвать неожиданное поведение во время работы. Ресурсы, ссылающиеся на этот пакет, могут перестать работать до перезапуска сервера.
+assetEditor.packModal.field.name = Имя
+assetEditor.packModal.field.name.placeholder = Имя пакета (уникальный идентификатор пакета)
+assetEditor.packModal.field.group = Группа
+assetEditor.packModal.field.group.placeholder = Группа пакета (например, твоё имя)
+assetEditor.packModal.field.version = Версия
+assetEditor.packModal.field.version.placeholder = 1.0.0 (semver)
+assetEditor.packModal.field.website = Веб-сайт
+assetEditor.packModal.field.website.placeholder = URL веб-сайта (необязательно)
+assetEditor.packModal.field.description = Описание
+assetEditor.packModal.field.description.placeholder = Описание пакета (необязательно)
+assetEditor.packModal.field.authors = Авторы
+assetEditor.packModal.authors.add = + Добавить
+assetEditor.packModal.authors.empty = Авторы не добавлены
+assetEditor.packModal.authors.entry = Автор
+assetEditor.packModal.authors.name.placeholder = Имя
+assetEditor.packModal.authors.email.placeholder = Email (необязательно)
+assetEditor.packModal.authors.url.placeholder = URL (необязательно)
+assetEditor.packModal.button.save = Сохранить
+assetEditor.packModal.errors.nameRequired = Имя пакета обязательно
+assetEditor.packModal.errors.groupRequired = Группа пакета обязательна
+assetEditor.packModal.errors.versionRequired = Версия обязательна
+assetEditor.packModal.errors.versionInvalid = Недопустимый формат версии. Используй семантическое версионирование (например, 1.0.0, 2.1.3-beta, 1.0.0+build123)
+
+assetEditor.readOnlyAssetBar.message = Этот ресурс доступен только для чтения и не может быть отредактирован, так как пакет ресурсов доступен только для чтения.
+assetEditor.readOnlyAssetBar.overrideButton = Переопределить ресурс
+assetEditor.readOnlyAssetBar.tooltip = Этот ресурс не может быть отредактирован, так как пакет ресурсов, в котором он находится, доступен только для чтения.\n\
+\n\
+Архивированные пакеты ресурсов не могут быть отредактированы, только пакеты в виде папок могут быть отредактированы.\n\
+\n\
+Ты можешь переопределить ресурсы через пользовательский пакет ресурсов.
+
+assetEditor.inheritanceWarning.message = Внимание: Этот ресурс имеет родительский элемент, и наследование пока не поддерживается в редакторе свойств.
+assetEditor.inheritanceWarning.tooltip = Этот ресурс наследует свойства от другого ресурса (указанного в свойстве "Parent").\n\n\
+Редактор свойств в настоящее время не полностью поддерживает наследование и покажет тебе только свойства, определённые в этом ресурсе. \n\n\
+Свойства, использующие значение от родительского ресурса, отмечены символом *.
+
+assetEditor.managePacksMenu.editPack = Редактировать пакет
+assetEditor.managePacksMenu.addPack = Добавить пакет
+assetEditor.managePacksMenu.removePack = Удалить пакет
+
+assetEditor.confirmationModal.typeToConfirm = Введи "{value}" для подтверждения:
+
+assetEditor.deletePackModal.title = Удалить пакет ресурсов?
+assetEditor.deletePackModal.text = Ты уверен, что хочешь удалить пакет ресурсов "{packId}"?\n\
+\n\
+ВНИМАНИЕ: Это ОПАСНАЯ операция!\n\
+\n\
+• Все ресурсы в этом пакете будут безвозвратно удалены\n\
+• Удаление пакета ресурсов во время работы может привести к неожиданному поведению, сбоям или повреждению данных\n\
+• Любые ссылки на ресурсы этого пакета из других пакетов перестанут работать\n\
+• Это действие невозможно отменить\n\
+\n\
+Продолжай, только если полностью понимаешь последствия.
+assetEditor.deletePackModal.confirmButton = Удалить пакет
+
+assetEditor.newAssetButton.readOnlyPackTooltip = Ты не можешь создавать новые ресурсы, так как выбранный пакет ресурсов доступен только для чтения.
+
+# === auth ===
+auth.sessionExpired.title = Сессия истекла
+auth.sessionExpired.message = Твоя сессия не может быть обновлена. Ты был переключён в автономный режим.\n\nТы можешь продолжить играть, но не сможешь присоединяться к серверам или создавать новые миры до перезапуска игры.
+
+# === bench ===
+bench.Furniture_Bench = Мебельный верстак
+bench.Builders = Верстак строителя
+bench.Armor_Bench = Верстак оружейника
+bench.Weapon_Bench = Наковальня кузнеца
+bench.Workbench = Верстак
+bench.Farmingbench = Верстак фермера
+bench.Farmingbench_old = Верстак фермера (старый)
+bench.Cookingbench = Плита повара
+bench.Loombench = Ткацкий станок
+bench.Armory = Кузница
+bench.Fieldcraft = Полевое ремесло
+bench.Arcanebench = Верстак чародея
+bench.Alchemybench = Верстак алхимика
+bench.Template = Шаблон
+bench.ArmorBench = Верстак оружейника
+bench.Architectsbench = Верстак архитектора
+bench.Fieldcraft_Old = Полевое ремесло (старое)
+
+# === benchCategories ===
+benchCategories.Furniture_Beds = Кровати
+benchCategories.Furniture_Misc = Разное
+benchCategories.Furniture_Gothic = Готика
+benchCategories.Furniture_Lighting = Освещение
+benchCategories.Furniture_Pottery = Керамика
+benchCategories.Furniture_Textiles = Текстиль
+benchCategories.Furniture_Storage = Хранение
+benchCategories.Furniture_Statues = Статуи
+benchCategories.Furniture_Seasonal = Сезонное
+benchCategories.Stairs = Лестницы
+benchCategories.Ornate = Украшенное
+benchCategories.Sign = Таблички
+benchCategories.Roof = Крыши
+benchCategories.Decorative = Декоративное
+benchCategories.Wardrobe = Гардероб
+benchCategories.Wall = Стены
+benchCategories.Pillar = Колонны
+benchCategories.Shelf = Полки
+benchCategories.Bricks = Кирпичи
+benchCategories.Trapdoor = Люки
+benchCategories.Gate = Ворота
+benchCategories.Smooth = Гладкое
+benchCategories.Structural-Rock = Структурный камень
+benchCategories.Platform = Платформы
+benchCategories.Window = Окна
+benchCategories.Beam = Балки
+benchCategories.SmoothHalfSlab = Гладкая половинная плита
+benchCategories.HalfSlab = Половинная плита
+benchCategories.Table = Столы
+benchCategories.Stool = Табуреты
+benchCategories.Chair = Стулья
+benchCategories.Door = Двери
+benchCategories.Ladder = Лестницы
+benchCategories.Armor_Hands = Руки
+benchCategories.Armor_Legs = Ноги
+benchCategories.Armor_Head = Голова
+benchCategories.Armor_Chest = Грудь
+benchCategories.Weapon_Shield = Щиты
+benchCategories.Weapon_Daggers = Кинжалы
+benchCategories.Weapon_Sword = Мечи
+benchCategories.Weapon_Bow = Луки
+benchCategories.Weapon_Club = Дубинки
+benchCategories.Weapon_Axe = Топоры
+benchCategories.Weapon_Mace = Булавы
+benchCategories.Weapon_Battleaxe = Боевые топоры
+benchCategories.Weapon_Longsword = Длинные мечи
+benchCategories.Workbench_Tools = Инструменты
+benchCategories.Workbench_Weapons = Оружие
+benchCategories.Workbench_Tinkering = Изобретательство
+benchCategories.Workbench_Crafting = Крафт
+benchCategories.Workbench_Farming = Фермерство
+benchCategories.Seeds = Семена
+benchCategories.Other = Прочее
+benchCategories.Saplings = Саженцы
+benchCategories.All = Всё
+benchCategories.Prepared = Приготовленное
+benchCategories.Baked = Выпечка
+benchCategories.Weapons = Оружие
+benchCategories.Tools = Инструменты
+benchCategories.Arcane_Misc = Разное
+benchCategories.Arcane_Portals = Порталы
+benchCategories.Alchemy_Potions = Зелья
+benchCategories.Alchemy_Bombs = Бомбы
+benchCategories.Template = Шаблон
+
+# === builderTools ===
+builderTools.name = Инструменты строителя
+builderTools.selectTool = Выбери инструмент
+builderTools.useTool = Используй инструмент
+builderTools.canNotUse = Нельзя использовать инструменты строителя вне творческого режима!
+
+builderTools.selectATool = Нажми левой кнопкой на инструмент строителя в инвентаре или на панели быстрого доступа, чтобы настроить его.
+builderTools.noToolSettings = Этот инструмент не требует настройки.
+
+builderTools.favorites.nameTitle = Название избранного инструмента
+builderTools.favorites.nameDescription = Пожалуйста, введи название для этого избранного инструмента
+
+builderTools.settings.ToolReachDistance.name = Дальность действия инструмента
+builderTools.settings.ToolReachDistance.description = Указывает максимальную (или фиксированную) дальность действия для инструментов
+builderTools.settings.ToolDelayMin.name = Минимальная задержка инструмента
+builderTools.settings.ToolDelayMin.description = Указывает минимальную задержку (в мс) между каждым использованием инструмента
+builderTools.settings.EnableBrushShapeRendering.name = Отображение формы кисти
+builderTools.settings.EnableBrushShapeRendering.description = Переключает отображение кисти между формой блока и стандартным каркасом
+builderTools.settings.BrushOpacity.name = Прозрачность кисти
+builderTools.settings.BrushOpacity.description = Управляет прозрачностью отображаемых инструментов-кистей
+builderTools.settings.SelectionOpacity.name = Прозрачность выделения
+builderTools.settings.SelectionOpacity.description = Управляет прозрачностью отображаемого инструмента выделения
+builderTools.settings.SelectionPanelOpacity.name = Прозрачность панели выделения
+builderTools.settings.SelectionPanelOpacity.description = Управляет прозрачностью перетаскиваемых панелей инструмента выделения
+builderTools.settings.FlightInertia.name = Инерция полёта
+builderTools.settings.FlightInertia.description = Добавляет импульс и постепенное замедление к творческому полёту (0 = мгновенная остановка, 100 = максимальный дрейф)
+builderTools.settings.FlightMode.name = Режим полёта
+builderTools.settings.FlightMode.description = Выбери между парением на месте или полётом в направлении камеры
+builderTools.settings.DisplayLegend.name = Отображать легенду
+builderTools.settings.DisplayLegend.description = Показывает или скрывает панель легенды инструментов строителя с подсказками управления
+builderTools.settings.NoClip.name = Проход сквозь блоки
+builderTools.settings.NoClip.description = Отключает обнаружение столкновений при полёте, позволяя тебе проходить сквозь блоки
+builderTools.settings.AirPlacement.name = Размещение в воздухе
+builderTools.settings.AirPlacement.description = Позволяет размещать блоки в воздухе на расстоянии без необходимости опоры
+builderTools.settings.AllowNPCDetection.name = Разрешить обнаружение NPC
+builderTools.settings.AllowNPCDetection.description = Когда включено, NPC могут обнаруживать тебя и реагировать на тебя в творческом режиме
+builderTools.settings.RespondToHit.name = Реагировать на удары
+builderTools.settings.RespondToHit.description = Когда включено, ты можешь получать отбрасывание и другие эффекты от ударов, будучи неуязвимым в творческом режиме
+builderTools.settings.BrushShapeRendering.name = Отображение блоков кисти
+builderTools.settings.BrushShapeRendering.description = Переключает предпросмотр кисти между каркасом и стилем блоков
+builderTools.settings.FlightSpeedMultiplier.description = Настройка скорости полёта и движения
+builderTools.settings.BrushSoundsEnabled.description = Включить или отключить звуковые эффекты при использовании инструментов-кистей
+builderTools.settings.BrushSoundVolume.description = Настроить громкость звуковых эффектов инструментов-кистей
+builderTools.settings.HideHud.description = Скрыть все элементы интерфейса
+builderTools.settings.HideHotbar.description = Скрыть панель быстрого доступа в творческом режиме
+builderTools.settings.HideCompass.description = Скрыть компас в творческом режиме
+builderTools.settings.HideNotifications.description = Скрыть уведомления в творческом режиме
+builderTools.settings.HideChat.description = Скрыть окно чата в творческом режиме
+builderTools.settings.HideHeldItem.description = Скрыть предмет в руке в творческом режиме
+builderTools.settings.ShowEntityMarkers.description = Показывать маркеры существ в творческом режиме
+builderTools.settings.Fullbright.description = Включить режим полного освещения, делая все блоки полностью освещёнными независимо от уровня света
+
+builderTools.panel.settings = Настройки
+builderTools.panel.brushes = Кисти
+builderTools.panel.brushSettings = Кисти
+builderTools.panel.generalSettings = Общие настройки
+builderTools.panel.maskSettings = Настройки маски
+builderTools.panel.quickSettings = Настройки
+builderTools.quickSettings.title = Быстрые настройки творческого режима
+builderTools.panel.clearSelection = Очистить выделение
+builderTools.panel.enableEmptyFilter = Включить фильтр "Пустое"
+builderTools.panel.invertEntireMask = Инвертировать всю маску
+builderTools.panel.useCustomMaskCommandEntry = Использовать пользовательскую команду маски
+
+builderTools.replace.materialsToReplace = [TMP] Материалы для замены:
+builderTools.replace.replaceWith = [TMP] Заменить на:
+
+builderTools.legend.title = Легенда
+builderTools.legend.pickMaterial = Выбрать материал
+builderTools.legend.setMask = Установить как маску
+builderTools.legend.addMask = Добавить к маске
+builderTools.legend.changeHeight = Изменить высоту формы
+builderTools.legend.changeWidth = Изменить ширину формы
+builderTools.legend.favoriteMaterials = Избранные материалы
+builderTools.legend.selectedMaterial = Выбранный материал
+builderTools.legend.shiftFasterChange = Удерживай Shift для более быстрых изменений
+builderTools.legend.undo = Отменить
+builderTools.legend.redo = Повторить
+builderTools.legend.addRemoveFavorite = Добавить/удалить избранный материал
+builderTools.legend.alt = Alt +
+builderTools.legend.shiftalt = Shift + Alt +
+builderTools.legend.shift = Shift +
+
+builderTools.legend.PaintBrush.Page1.Title = Основные кисти
+builderTools.legend.PaintBrush.Page1.Description = Инструмент "Кисть" позволяет размещать и удалять блоки различных форм, размеров и материалов
+builderTools.legend.PaintBrush.Page1.DestroyBlocks = Разрушай блоки там, куда ты целишься
+builderTools.legend.PaintBrush.Page1.PlaceBlocks = Размещай блоки там, куда ты целишься, в соответствии с выбранным материалом
+builderTools.legend.PaintBrush.Page1.SelectTargetMaterial = Выбрать целевой материал
+builderTools.legend.PaintBrush.Page1.AddTargetMaterial = Добавить целевой материал как мультиматериал
+builderTools.legend.PaintBrush.Page1.UndoLastBrush = Отменить последнее действие кисти
+builderTools.legend.PaintBrush.Page1.RedoLastUndo = Повторить последнее отменённое действие
+builderTools.legend.PaintBrush.Page1.EditInventoryProperties = Редактируй материалы, размер, форму и другие свойства из инвентаря
+builderTools.legend.PaintBrush.Page1.AirPlacementTitle = Размещение в воздухе
+builderTools.legend.PaintBrush.Page1.AirPlacementHotkey = Переключить режим размещения в воздухе
+builderTools.legend.PaintBrush.Page1.AirPlacementDistanceChange = Изменить расстояние размещения в воздухе
+builderTools.legend.PaintBrush.Page2.Title = Блокировка оси и маскирование
+builderTools.legend.PaintBrush.Page2.AxisLock = Блокировка оси
+builderTools.legend.PaintBrush.Page2.AxisLockDescription = Позволяет тебе прикрепить кисть к плоской, перемещаемой и поворачиваемой поверхности. Следующие горячие клавиши позволяют показать, редактировать и выйти из режима поверхности.
+builderTools.legend.PaintBrush.Page2.ShowSurfaceMoveTool = Показать инструмент перемещения поверхности
+builderTools.legend.PaintBrush.Page2.ShowSurfaceRotationTool = Показать инструмент поворота поверхности
+builderTools.legend.PaintBrush.Page2.UseBrush = Использовать кисть
+builderTools.legend.PaintBrush.Page2.ExitAxisLockMode = Выйти из режима блокировки оси
+builderTools.legend.PaintBrush.Page2.BlockMasking = Маскирование блоков
+builderTools.legend.PaintBrush.Page2.BlockMaskingDescription = Позволяет тебе установить материалы для кисти, которые ограничивают изменения блоками, соответствующими этим материалам
+builderTools.legend.PaintBrush.Page2.BrushMenuMaskingTab = Вкладка маскирования в меню кисти
+builderTools.legend.PaintBrush.Page2.MaskConfigDescription = Нажми на значок карандаша в правом верхнем углу, чтобы переключиться на панель "Настройка маски". Там ты можешь создавать более сложные маски, используя предметы из инвентаря. Наведи курсор на термины в панели интерфейса для получения дополнительной информации.
+builderTools.legend.PaintBrush.Page3.Title = Скриптовые кисти / Размещение в воздухе
+builderTools.legend.PaintBrush.Page3.Description = Скриптовые кисти\n\
+Ты можешь создавать собственную логику размещения блоков, используя команды и ресурсы, такие как "Речная кисть", "Горная кисть" и любые другие кисти, которые ты можешь представить!
+builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = Чтобы создать свои собственные кисти, взгляни на примеры в директории Assets/MacroCommands/Brushes/ в ресурсах. Ты можешь использовать внутриигровую команду /help, чтобы узнать больше о каждой доступной операции конфигурации кисти. Тебе также нужно будет создать предмет кисти; посмотри в директории Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ примеры таких предметов.
+builderTools.legend.PaintBrush.Page3.TestingBrushesTitle = Тестирование разрабатываемых кистей
+builderTools.legend.PaintBrush.Page3.TestingBrushesDescription = Используй '/sb load', чтобы открыть интерфейс и просмотреть все доступные скриптовые кисти, или '/sb load <name>', чтобы загрузить конкретную кисть напрямую. Это позволяет тебе тестировать кисти без необходимости сначала создавать предмет. Используй '/sb clear', чтобы отключить, когда закончишь.
+
+builderTools.legend.LineBrush.Page1.Title = Линейная кисть
+builderTools.legend.LineBrush.Page1.Description = Позволяет тебе строить прямые линии из блоков
+builderTools.legend.LineBrush.Page1.StartOrAddPoint = Начать или добавить точку к линии
+builderTools.legend.LineBrush.Page1.CancelLine = Отменить линию
+builderTools.legend.LineBrush.Page1.SnapToAngles = Удерживай, чтобы включить привязку к углам 45°
+builderTools.legend.LineBrush.Page1.EditInventoryProperties = Редактируй материалы, размер и другие свойства из инвентаря
+
+builderTools.legend.MachinimaTool.Page1.Title = Начало работы
+builderTools.legend.MachinimaTool.Page1.Description = Создавай анимацию с ключевыми кадрами, используя актёров, камеры, частицы, звуки и многое другое! Идеально подходит для синематиков и кат-сцен.
+builderTools.legend.MachinimaTool.Page1.OpensMenu = Открыть интерфейс редактора машинимы
+builderTools.legend.MachinimaTool.Page1.BaseCommand = Базовая команда для всех операций машинимы
+builderTools.legend.MachinimaTool.Page1.Scenes = Сцены\n\
+Сцена — это контейнер для твоей машинимы. Она хранит всех актёров, ключевые кадры и настройки.
+builderTools.legend.MachinimaTool.Page1.CreatingFirstScene = Создание первой сцены\n\
+1. Найди подходящее место для твоей машинимы\n\
+2. Открой меню машинимы\n\
+3. Нажми на значок +, чтобы создать новую сцену\n\
+4. Добавь своего первого актёра!
+builderTools.legend.MachinimaTool.Page1.Actors = Актёры\n\
+Актёр — это объект, который можно анимировать с помощью ключевых кадров. Смотри следующую страницу для типов актёров.
+builderTools.legend.MachinimaTool.Page1.AddingCameraActor = Добавление актёра-камеры\n\
+1. Расположись там, где ты хочешь видеть камеру\n\
+2. Открой меню машинимы\n\
+3. Нажми на значок + под списком сцен\n\
+4. Выбери "Camera" из выпадающего списка\n\
+5. Теперь ты можешь нажать на камеру, чтобы изменить её положение, и нажать C, чтобы переключить вид камеры!
+
+builderTools.legend.MachinimaTool.Page2.Title = Типы актёров
+builderTools.legend.MachinimaTool.Page2.Description = Различные типы актёров служат разным целям в твоей машиниме. Все они являются анимируемыми объектами, которые позволяют тебе контролировать позицию, поворот и другие значения. Актёры добавляются через меню машинимы
+builderTools.legend.MachinimaTool.Page2.CameraHeader = Камера
+builderTools.legend.MachinimaTool.Page2.CameraDesc = Позволяет тебе перемещать камеру по траекториям и анимировать различные настройки, такие как поле зрения и скорость.
+builderTools.legend.MachinimaTool.Page2.EntityHeader = Существо
+builderTools.legend.MachinimaTool.Page2.EntityDesc = Анимированные персонажи с моделями. Поддерживает поворот тела/головы и события анимации.
+builderTools.legend.MachinimaTool.Page2.PlayerHeader = Игрок
+builderTools.legend.MachinimaTool.Page2.PlayerDesc = Похоже на существо, ссылается на локального игрока.
+builderTools.legend.MachinimaTool.Page2.ReferenceHeader = Референс
+builderTools.legend.MachinimaTool.Page2.ReferenceDesc = Невидимые точки-маркеры. Полезны для прицеливания и референсных позиций. Позволяют устанавливать цели камеры для отслеживания точек.
+builderTools.legend.MachinimaTool.Page2.ItemHeader = Предмет
+builderTools.legend.MachinimaTool.Page2.ItemDesc = Отображает предметы в мире. Могут быть размещены и анимированы.
+builderTools.legend.MachinimaTool.Page2.AddActorCommand = Команда: .mach actor add [type] [name]\n\
+Типы: camera, entity, player, ref, item
+
+builderTools.legend.MachinimaTool.Page3.Title = Управление воспроизведением
+builderTools.legend.MachinimaTool.Page3.Description = Управление воспроизведением позволяет тебе предпросматривать свою сцену, анимируя всех актёров по их траекториям ключевых кадров. Используй эти элементы для прокрутки по времени, перехода между ключевыми кадрами и тестирования анимаций. Каждый кадр обновит всех актёров вдоль их траекторий ключевых кадров, запуская анимации.
+builderTools.legend.MachinimaTool.Page3.TogglePause = Переключить воспроизведение / паузу
+builderTools.legend.MachinimaTool.Page3.ContinuousPlayback = Переключить непрерывное воспроизведение (зацикливание)
+builderTools.legend.MachinimaTool.Page3.AutoRestart = Переключить автоперезапуск в конце сцены
+builderTools.legend.MachinimaTool.Page3.RestartScene = Перезапустить сцену с начала
+builderTools.legend.MachinimaTool.Page3.EndScene = Перейти к финальному кадру
+builderTools.legend.MachinimaTool.Page3.NavigationTitle = Навигация по кадрам:
+builderTools.legend.MachinimaTool.Page3.FrameScrub = Прокрутка по кадрам (удерживай для непрерывной)
+builderTools.legend.MachinimaTool.Page3.JumpKeyframe = Перейти к предыдущему / следующему ключевому кадру
+builderTools.legend.MachinimaTool.Page3.SpeedModifiers = Удерживай SHIFT для скорости 2x, ALT для скорости 0.5x
+
+builderTools.legend.MachinimaTool.Page4.Title = Редактирование ключевых кадров
+builderTools.legend.MachinimaTool.Page4.Description = Ключевые кадры определяют позицию, поворот и настройки актёра в определённые моменты времени. Система интерполирует между ключевыми кадрами, создавая плавные траектории анимации. Добавляй ключевые кадры для создания движения, редактируй их для точной настройки времени и позиционирования.
+builderTools.legend.MachinimaTool.Page4.AddKeyframe = Добавить новый ключевой кадр в конец трека актёра, продлевая анимацию
+builderTools.legend.MachinimaTool.Page4.AddAtCurrentFrame = Вставить ключевой кадр в текущей позиции воспроизведения
+builderTools.legend.MachinimaTool.Page4.CopyKeyframe = Скопировать настройки выбранного ключевого кадра для вставки на другом актёре или кадре
+builderTools.legend.MachinimaTool.Page4.DeleteKeyframe = Удалить ключевой кадр, на который ты наводишь курсор
+builderTools.legend.MachinimaTool.Page4.EditKeyframe = Открыть гизмо для настройки позиции и поворота ключевого кадра
+builderTools.legend.MachinimaTool.Page4.MoveActor = Переместить всю траекторию актёра целиком
+builderTools.legend.MachinimaTool.Page4.EditFrameTime = Изменить время появления этого ключевого кадра на временной шкале
+builderTools.legend.MachinimaTool.Page4.AdjustFrameTime = Сдвинуть время ключевого кадра раньше или позже
+
+builderTools.legend.MachinimaTool.Page5.Title = Взаимодействие с мышью
+builderTools.legend.MachinimaTool.Page5.Description = Нажимай на узлы ключевых кадров в мире для взаимодействия:
+builderTools.legend.MachinimaTool.Page5.SelectKeyframe = Выбрать ключевой кадр (войти в режим свободного перемещения)
+builderTools.legend.MachinimaTool.Page5.JumpToKeyframe = Сделать активным и перейти к кадру
+builderTools.legend.MachinimaTool.Page5.GizmoTitle = Управление гизмо:
+builderTools.legend.MachinimaTool.Page5.TranslationGizmo = Открыть гизмо перемещения (с блокировкой по осям)
+builderTools.legend.MachinimaTool.Page5.RotationGizmo = Открыть гизмо поворота (голова/тело)
+builderTools.legend.MachinimaTool.Page5.FreeMoveTitle = Режим свободного перемещения:
+builderTools.legend.MachinimaTool.Page5.FreeMoveDescription = Левая кнопка мыши для подтверждения позиции, правая кнопка мыши для отмены.\n\
+Удерживай SHIFT для привязки к поверхностям на расстоянии.\n\
+Удерживай ALT для игнорирования привязки к поверхности.
+
+builderTools.legend.MachinimaTool.Page6.Title = Режимы выделения
+builderTools.legend.MachinimaTool.Page6.Description = Режимы выделения определяют, что будет перемещено при использовании инструментов трансформации. Выбери правильный режим в зависимости от того, что ты хочешь переместить.
+builderTools.legend.MachinimaTool.Page6.CycleMode = Переключение между режимами выделения
+builderTools.legend.MachinimaTool.Page6.KeyframeModeTitle = Режим ключевого кадра (по умолчанию)
+builderTools.legend.MachinimaTool.Page6.KeyframeModeDesc = Перемещает только выбранный ключевой кадр. Используй это для точной настройки отдельных точек вдоль траектории актёра без влияния на другие ключевые кадры.
+builderTools.legend.MachinimaTool.Page6.ActorModeTitle = Режим актёра
+builderTools.legend.MachinimaTool.Page6.ActorModeDesc = Перемещает все ключевые кадры выбранного актёра вместе. Вся траектория смещается как единое целое, сохраняя форму анимации.
+builderTools.legend.MachinimaTool.Page6.SceneModeTitle = Режим сцены
+builderTools.legend.MachinimaTool.Page6.SceneModeDesc = Перемещает начало координат всей сцены, смещая всех актёров и их траектории вместе. Полезно для перемещения всей машинимы в другую область.
+
+builderTools.legend.MachinimaTool.Page7.Title = Отображение и начало координат
+builderTools.legend.MachinimaTool.Page7.DisplayTitle = Переключатели отображения:
+builderTools.legend.MachinimaTool.Page7.ToggleDisplay = Переключить отображение наложения редактора
+builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Переключить видимость узлов траектории
+builderTools.legend.MachinimaTool.Page7.ToggleCamera = Включить/выключить актёра-камеру
+builderTools.legend.MachinimaTool.Page7.ToggleFrustum = Переключить отображение усечённой пирамиды камеры
+builderTools.legend.MachinimaTool.Page7.OriginTitle = Управление началом координат сцены:
+builderTools.legend.MachinimaTool.Page7.GoToOrigin = Телепортироваться к началу координат сцены
+builderTools.legend.MachinimaTool.Page7.SetOrigin = Установить начало координат сцены на позицию игрока
+builderTools.legend.MachinimaTool.Page7.OffsetToOrigin = Сместить всю сцену к позиции игрока
+
+builderTools.legend.MachinimaTool.Page8.Title = Траектории и кривые
+builderTools.legend.MachinimaTool.Page8.Description = Выбери, как интерполируются ключевые кадры:
+builderTools.legend.MachinimaTool.Page8.LinearHeader = Линейная (по умолчанию)
+builderTools.legend.MachinimaTool.Page8.LinearDesc = Прямые линии между ключевыми кадрами. Простое и предсказуемое движение.
+builderTools.legend.MachinimaTool.Page8.BezierHeader = Безье
+builderTools.legend.MachinimaTool.Page8.BezierDesc = Плавные кривые с управляющими ручками, которые можно перетаскивать для формирования траектории.
+builderTools.legend.MachinimaTool.Page8.SplineHeader = Сплайн
+builderTools.legend.MachinimaTool.Page8.SplineDesc = Автоматические плавные кривые, проходящие через все ключевые кадры.
+builderTools.legend.MachinimaTool.Page8.BezierCommands = Команды траектории:
+builderTools.legend.MachinimaTool.Page8.EnableBezier = Включить безье
+builderTools.legend.MachinimaTool.Page8.SmoothBezier = Сгладить ручки
+builderTools.legend.MachinimaTool.Page8.EnableSpline = Включить сплайн
+
+builderTools.legend.MachinimaTool.Page9.Title = Консольные команды
+builderTools.legend.MachinimaTool.Page9.SceneCommands = Сцена: .mach scene [list | add | remove | save | load | copy | set | rename | rotate | clear]
+builderTools.legend.MachinimaTool.Page9.ActorCommands = Актёр: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
+builderTools.legend.MachinimaTool.Page9.EventCommands = События: .mach event [list | add | remove]\n\
+Типы событий: animation, camera, command, particle, target
+builderTools.legend.MachinimaTool.Page9.FileCommands = Файлы: .mach save | load | files | zip | autosave [seconds]
+builderTools.legend.MachinimaTool.Page9.UtilityCommands = Утилиты: .mach tool | fps [value] | speed [value] | align | demo [1-7] | restart
+
+builderTools.legend.PasteTool.Page1.Title = Кисть вставки префабов
+builderTools.legend.PasteTool.Page1.Description = Позволяет тебе быстро вставлять префабы, как если бы ты использовал кисть. Поддерживает большинство функций кисти рисования.
+builderTools.legend.PasteTool.Page1.LoadPrefabOrCopy = Загрузить префаб или скопировать выделение
+builderTools.legend.PasteTool.Page1.UseSelectionContents = Чтобы использовать содержимое выделения, сделай выделение с помощью инструмента выделения и введи '/copy', затем вернись к инструменту вставки, чтобы использовать свою копию
+builderTools.legend.PasteTool.Page1.OpensPrefabList = Открыть список префабов; нажми на префаб, чтобы загрузить
+builderTools.legend.PasteTool.Page1.PastePrefab = Вставить префаб; удерживай для непрерывной вставки
+builderTools.legend.PasteTool.Page1.StickPrefab = Прикрепить префаб к цели или открепить, если уже прикреплён
+builderTools.legend.PasteTool.Page1.RotatePrefabY = Повернуть вокруг Y
+builderTools.legend.PasteTool.Page1.RotatePrefabX = Повернуть вокруг X
+builderTools.legend.PasteTool.Page1.RotatePrefabZ = Повернуть вокруг Z
+builderTools.legend.PasteTool.Page1.ShowTexture = Переключить текстуру блоков
+builderTools.legend.PasteTool.Page1.CycleOrigin = Переключить начало координат (Низ/Центр/Верх)
+builderTools.legend.PasteTool.Page2.Title = Клавиши-модификаторы
+builderTools.legend.PasteTool.Page2.ShiftPrefabLeftRight = Сдвинуть префаб влево или вправо
+builderTools.legend.PasteTool.Page2.ShiftPrefabForwardBackward = Сдвинуть префаб вперёд или назад
+builderTools.legend.PasteTool.Page2.ShiftPrefabUp = Сдвинуть префаб вверх
+builderTools.legend.PasteTool.Page2.ShiftPrefabDown = Сдвинуть префаб вниз
+builderTools.legend.PasteTool.Page2.RotatePrefabLeftRight = Повернуть префаб влево или вправо
+builderTools.legend.PasteTool.Page2.RollPrefabLeftRight = Наклонить префаб влево или вправо
+builderTools.legend.PasteTool.Page2.RollPrefabForwardBackward = Наклонить префаб вперёд или назад
+builderTools.legend.PasteTool.Page2.ResetShifting = Сбросить сдвиги
+
+builderTools.legend.SculptBrush.Page1.Title = Кисть скульптора
+builderTools.legend.SculptBrush.Page1.Description = Позволяет тебе поднимать и опускать местность для более точной лепки и смешивания форм. Поддерживает большинство функций кисти рисования.
+builderTools.legend.SculptBrush.Page1.MeltAwayBlocks = Растворяй блоки там, куда ты целишься, слой за слоем
+builderTools.legend.SculptBrush.Page1.RaiseLayer = Поднять слой блоков там, куда ты целишься
+builderTools.legend.SculptBrush.Page1.Smooth = Сгладить неровную местность
+builderTools.legend.SculptBrush.Page1.MaterialSelectedDescription = Когда материал выбран, размещает слой этого материала там, куда ты целишься
+builderTools.legend.SculptBrush.Page1.SelectTargetMaterial = Выбрать целевой материал
+builderTools.legend.SculptBrush.Page1.UndoLastBrush = Отменить последнее действие кисти
+builderTools.legend.SculptBrush.Page1.RedoLastUndo = Повторить последнее отменённое действие
+builderTools.legend.SculptBrush.Page1.EditInventoryProperties = Редактируй материалы, размер, форму и другие свойства из инвентаря
+
+builderTools.legend.SelectionTool.Page1.Title = Основы выделения
+builderTools.legend.SelectionTool.Page1.CreatingSelection = Создание выделения:
+builderTools.legend.SelectionTool.Page1.HoldAndDrag = 1. Удерживай и перетаскивай, чтобы выбрать первую ось, затем отпусти
+builderTools.legend.SelectionTool.Page1.AdjustAndClick = 2. Настрой положение мыши, затем нажми снова, чтобы задать третье измерение
+builderTools.legend.SelectionTool.Page1.ClearSelection = Очистить выделение
+builderTools.legend.SelectionTool.Page1.ClickDragPanels = Нажми и перетащи на панелях выделения
+builderTools.legend.SelectionTool.Page1.ChangeSelectionSize = Изменить размер выделения
+builderTools.legend.SelectionTool.Page1.MoveSelection = Переместить выделение
+builderTools.legend.SelectionTool.Page1.ExtrudeFace = Выдавить грань
+builderTools.legend.SelectionTool.Page1.MultipleSelections = Множественные выделения:
+builderTools.legend.SelectionTool.Page1.NextSelection = Следующее выделение
+builderTools.legend.SelectionTool.Page1.PreviousSelection = Предыдущее выделение
+builderTools.legend.SelectionTool.Page1.SetRedPoint = Установить красную точку на цель
+builderTools.legend.SelectionTool.Page1.SetGreenPoint = Установить зелёную точку на цель
+builderTools.legend.SelectionTool.Page2.Title = Копирование / Перемещение / Поворот
+builderTools.legend.SelectionTool.Page2.WithSelectionCreated = С созданным выделением:
+builderTools.legend.SelectionTool.Page2.ShowMoveTool = Показать инструмент перемещения
+builderTools.legend.SelectionTool.Page2.AttachToCursor = Прикрепить выделение к курсору
+builderTools.legend.SelectionTool.Page2.ShowRotationTool = Показать инструмент поворота
+builderTools.legend.SelectionTool.Page2.PasteAndExit = Вставить и выйти
+builderTools.legend.SelectionTool.Page2.DuplicatePasteContinue = Дублировать, вставить и продолжить
+builderTools.legend.SelectionTool.Page2.CancelMovement = Отменить перемещение и поворот
+builderTools.legend.SelectionTool.Page2.DuplicateSelection = Дублировать выделение, затем войти в режим перемещения/поворота
+builderTools.legend.SelectionTool.Page2.UsingYourSelection = Использование выделения:
+builderTools.legend.SelectionTool.Page2.CopySelection = Скопировать выделение
+builderTools.legend.SelectionTool.Page2.CopyUsageOptions = Затем используй инструмент вставки (кисть + предпросмотр) или команду '/paste'
+builderTools.legend.SelectionTool.Page2.SavingPrefabs = Сохранение префабов:
+builderTools.legend.SelectionTool.Page2.SavePrefabCommand = Сохрани выделение как префаб с помощью команды в чате
+builderTools.legend.SelectionTool.Page2.LoadPrefabReference = Смотри легенду инструмента вставки для загрузки префабов через интерфейс
+builderTools.legend.SelectionTool.Page3.Title = Команды выделения
+builderTools.legend.SelectionTool.Page3.BasicCommands = Основные команды:\n\
+- /set [Заполняет выделение блоками]\n\
+- /clear [Очищает все блоки в выделении]\n\
+- /walls [Добавляет стены к выделению]\n\
+- /move [Перемещает содержимое выделения в направлении, куда ты смотришь]\n\
+- /undo и /redo [Отменить и повторить X раз]\n\
+- /copy [Копирует выделение в буфер обмена]\n\
+- /cut [Вырезает выделение в буфер обмена]\n\
+- /paste [Вставляет буфер обмена в твою позицию]\n\
+- /stack [Дублирует выделение в направлении, куда ты смотришь, X раз]\n\
+- /replace [Заменить один материал на другой]\n\
+- /hollow [Делает форму полой, оставляя центр пустым]\n\
+- /flip [Зеркалирует блоки в направлении, куда ты смотришь]\n\
+- /rotate [Поворачивает выделение]\n\
+- /expand [Расширяет выделение в направлении, куда ты смотришь]\n\
+- /contract [Сжимает выделение на заданное расстояние]\n\
+- /deselect [Очищает рамку выделения]
+builderTools.legend.SelectionTool.Page3.SeeHelpMenu = Смотри меню '/help' для дополнительных команд, которые можно выполнить с выделением!
+
+builderTools.legend.RulerTool.Page1.Title = Основные измерения
+builderTools.legend.RulerTool.Page1.Description = Инструмент "Линейка" позволяет тебе измерять расстояния между несколькими точками в 3D-пространстве с поддержкой множественных линий измерения.
+builderTools.legend.RulerTool.Page1.PlacePoint = Размести точку измерения в целевой локации
+builderTools.legend.RulerTool.Page1.EndCurrentLine = Завершить текущую линию измерения и начать новую
+builderTools.legend.RulerTool.Page1.SnapToAngles = Удерживай для привязки к углам 45° для точных измерений
+builderTools.legend.RulerTool.Page1.DistanceMeasurement = Измерения расстояния отображаются в каждой точке и вдоль каждого сегмента линии. Линии имеют цветовую маркировку: Красная (ось X), Зелёная (ось Y), Синяя (ось Z), Белая (диагональ)
+
+builderTools.legend.RulerTool.Page2.Title = Редактирование точек и линий
+builderTools.legend.RulerTool.Page2.PointEditing = Редактирование существующих точек:
+builderTools.legend.RulerTool.Page2.MovePoint = Нажми правой кнопкой на существующую точку, чтобы взять и переместить её
+builderTools.legend.RulerTool.Page2.DropPoint = Нажми правой кнопкой снова, чтобы поместить точку в новую локацию
+builderTools.legend.RulerTool.Page2.DeletePoint = Удалить точку, на которую наведён курсор
+builderTools.legend.RulerTool.Page2.ClearCurrentLine = Очистить все точки текущей линии
+builderTools.legend.RulerTool.Page2.ClearAllLines = Очистить все линии и сбросить инструмент
+
+builderTools.legend.RulerTool.Page3.Title = Множественные линии измерения
+builderTools.legend.RulerTool.Page3.Description = Инструмент "Линейка" поддерживает создание и управление несколькими отдельными линиями измерения. Каждая линия отслеживается независимо и может быть отредактирована отдельно.
+builderTools.legend.RulerTool.Page3.NextLine = Переключиться на следующую линию измерения
+builderTools.legend.RulerTool.Page3.PreviousLine = Переключиться на предыдущую линию измерения
+builderTools.legend.RulerTool.Page3.SwitchToLine = Нажми левой кнопкой на точку другой линии, чтобы переключиться на эту линию
+builderTools.legend.RulerTool.Page3.WorkflowTip = Подсказка: После размещения точек на одной линии нажми левой кнопкой, чтобы завершить её и автоматически начать новую линию. Неактивные линии отображаются с пониженной прозрачностью.
+
+builderTools.legend.SelectPrefabTool.Page1.Title = Селектор префабов
+builderTools.legend.SelectPrefabTool.Page1.Description = Редактор префабов создаёт временное окружение для редактирования префабов и их повторного сохранения. Если ты выйдешь из редактора префабов без сохранения, твои изменения будут потеряны.
+builderTools.legend.SelectPrefabTool.Page1.SelectingPrefabs = Выбор префабов:
+builderTools.legend.SelectPrefabTool.Page1.SelectPrefab = Выбери префаб, нажав на его якорь
+builderTools.legend.SelectPrefabTool.Page1.UnselectPrefab = Снять выделение с текущего выбранного префаба
+builderTools.legend.SelectPrefabTool.Page1.EditingPrefabs = Редактирование префабов:
+builderTools.legend.SelectPrefabTool.Page1.OpenSaveUI = Открыть интерфейс сохранения/настроек
+builderTools.legend.SelectPrefabTool.Page1.UpdateBoundingBox = Обновить ограничивающую рамку выбранного префаба в соответствии с текущим выделением
+builderTools.legend.SelectPrefabTool.Page1.TeleportToPrefab = Открыть интерфейс телепортации к префабу
+builderTools.legend.SelectPrefabTool.Page1.SetAnchorTitle = Инструмент установки якоря:
+builderTools.legend.SelectPrefabTool.Page1.SetAnchorDescription = Используй инструмент установки якоря из своего инвентаря, чтобы изменить место расположения точки привязки префаба. Якорь определяет, где будет размещён префаб при создании.
+builderTools.legend.SelectPrefabTool.Page1.UsefulCommands = Полезные команды:
+builderTools.legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - Удаляет все существа из выбранного префаба\n\
+/pedit exit - Выходит из редактора префабов без сохранения изменений
+
+builderTools.tools.Paste.args.Origin.name = Начало координат
+builderTools.tools.Paste.args.Origin.values.Anchor = Якорь
+builderTools.tools.Paste.args.Origin.values.Bottom = Низ
+builderTools.tools.Paste.args.Origin.values.Center = Центр
+builderTools.tools.Paste.args.Origin.values.Top = Верх
+
+builderTools.legend.EntityTool.Page1.Title = Инструмент существ
+builderTools.legend.EntityTool.Page1.Description = Создавай NPC и модели предметов, блоков и существ. Выбирай, перемещай, поворачивай и масштабируй существ в своём мире.
+builderTools.legend.EntityTool.Page1.SelectingEntities = Выбор существ:
+builderTools.legend.EntityTool.Page1.SelectEntity = Выбрать/взять существо
+builderTools.legend.EntityTool.Page1.FreeMove = Свободное перемещение существа (удерживай и перетаскивай)
+builderTools.legend.EntityTool.Page1.CancelMovement = Отменить перемещение и вернуть позицию
+builderTools.legend.EntityTool.Page1.AdjustDistance = Настроить расстояние до существа
+
+builderTools.legend.EntityTool.Page2.Title = Режимы трансформации
+builderTools.legend.EntityTool.Page2.TransformModes = Режимы трансформации:
+builderTools.legend.EntityTool.Page2.TranslateMode = Войти в режим перемещения
+builderTools.legend.EntityTool.Page2.RotateMode = Войти в режим поворота
+builderTools.legend.EntityTool.Page2.RotateHeadMode = Войти в режим поворота головы
+builderTools.legend.EntityTool.Page2.FreeMoveMode = Прикрепить к курсору
+builderTools.legend.EntityTool.Page2.Scale = Масштабировать выбранное существо
+
+builderTools.legend.EntityTool.Page3.Title = Действия
+builderTools.legend.EntityTool.Page3.EntityActions = Действия с существами:
+builderTools.legend.EntityTool.Page3.Clone = Клонировать выбранное существо
+builderTools.legend.EntityTool.Page3.Remove = Удалить выбранное существо
+builderTools.legend.EntityTool.Page3.Freeze = Переключить заморозку существа
+builderTools.legend.EntityTool.Page3.MovementOptions = Опции перемещения:
+builderTools.legend.EntityTool.Page3.SurfaceLock = Переключить режим привязки к поверхности
+builderTools.legend.EntityTool.Page3.SpawnUI = Интерфейс создания:
+builderTools.legend.EntityTool.Page3.OpenSpawnUI = Открыть интерфейс создания существ
+
+builderTools.panel.selectedEntity = Выбранное существо
+builderTools.panel.entitySettings = Настройки инструмента существ
+builderTools.panel.noSelection = Существо не выбрано
+builderTools.panel.entityType = Тип
+builderTools.panel.entityModel = Модель
+builderTools.panel.entityName = Имя
+builderTools.panel.entityPosition = Позиция
+builderTools.panel.entityRotation = Поворот
+builderTools.panel.entityScale = Масштаб
+builderTools.panel.entityAllowPickup = Разрешить подбор
+builderTools.panel.entityClone = Клонировать
+builderTools.panel.entityRemove = Удалить
+builderTools.panel.entityPin = Закрепить существо
+builderTools.panel.entityUnpin = Открепить существо
+builderTools.panel.surfaceLock = Привязка к поверхности
+builderTools.panel.gridSnap = Привязка к сетке
+builderTools.panel.gridSize = Размер сетки
+
+builderTools.commands.clearEntities.description = Удаляет все существа в текущем выделении.
+
+builderTools.entityType.npc = NPC
+builderTools.entityType.item = Предмет
+builderTools.entityType.model = Модель
+builderTools.entityType.unknown = Неизвестно
+builderTools.entityModel.fallback.npc = NPC #{id}
+builderTools.entityModel.fallback.item = Предмет #{id}
+builderTools.entityModel.fallback.block = Блок #{id}
+builderTools.entityModel.fallback.unknown = #{id}
+
+builderTools.panel.entityLightEnabled = Свет включён
+builderTools.panel.entityLightColor = Цвет света
+builderTools.panel.entityLightRadius = Радиус света
+builderTools.panel.npcDebug = Отладка NPC
+builderTools.panel.npcState = Состояние
+builderTools.panel.npcHealth = Здоровье
+builderTools.panel.npcStamina = Выносливость
+builderTools.panel.npcSpeed = Скорость
+builderTools.panel.npcTarget = Цель
+builderTools.panel.npcTarget.none = Нет
+
+# === codex ===
+codex.title = Кодекс
+
+codex.movement = Передвижение
+
+codex.mantling = Перелезание
+codex.mantling.description = Когда ты стоишь перед препятствием выше тебя, иди вперёд и нажми прыжок, чтобы перелезть через него.
+
+codex.sliding = Скольжение
+codex.sliding.description = Во время бега нажми клавишу "Присесть", чтобы скользить.
+
+codex.rolling = Кувырок
+codex.rolling.description = Во время падения удерживай клавишу "Присесть", чтобы сделать кувырок и избежать урона от падения.
+
+# === confirmQuitOverlay ===
+confirmQuitOverlay.title = Выход из игры
+confirmQuitOverlay.text = Ты уверен, что хочешь выйти?
+
+confirmQuitOverlay.buttons.returnToGame = Вернуться в игру
+confirmQuitOverlay.buttons.quitToDesktop = Выйти на рабочий стол
+
+# === contentCreation ===
+contentCreation.pageTitle = Инструменты творчества
+
+contentCreation.introText = Это центр, из которого ты можешь получить доступ к различным инструментам и редакторам, которые помогут в создании контента в Hytale.\n\
+\n\
+Просто выбери один из инструментов в меню выше, чтобы начать.
+
+contentCreation.actionButton.toggleBlockEditingTools = Переключить инструменты редактирования блоков
+
+contentCreation.notification.noBlockTargeted = Тебе нужно нацелиться на блок, чтобы открыть его в редакторе ресурсов.
+
+# Blockbench Modals
+contentCreation.modal.blockbench.installRequired.title = Требуется установка Blockbench
+contentCreation.modal.blockbench.installRequired.text = Мы используем Blockbench для редактирования 3D-моделей. Похоже, что у тебя не установлен Blockbench.\n\nЗапустить Blockbench из Hytale можно только если ты установил Blockbench с помощью установщика. \n\nХочешь установить его сейчас с их веб-сайта?
+contentCreation.modal.blockbench.installRequired.confirm = Установить Blockbench
+contentCreation.modal.blockbench.pluginRequired.title = Требуется плагин Hytale
+contentCreation.modal.blockbench.pluginRequired.text = Похоже, что у тебя установлен Blockbench, но отсутствует плагин Hytale.\n\nПожалуйста, установи плагин Hytale. Ты можешь найти инструкции по установке на веб-сайте Blockbench.
+contentCreation.modal.blockbench.pluginRequired.confirm = Показать инструкции по установке
+contentCreation.modal.blockbench.launchFailed.title = Не удалось запустить Blockbench
+contentCreation.modal.blockbench.launchFailed.text = Blockbench был найден в твоей системе, но нам не удалось его запустить.\n\nПожалуйста, попробуй запустить Blockbench вручную.
+
+contentCreation.navigation.assets = Ресурсы
+
+contentCreation.navigation.assetEditor = Редактор ресурсов
+contentCreation.navigation.assetEditor.tooltipTitle = Запустить приложение редактора ресурсов
+contentCreation.navigation.assetEditor.tooltipDesc = Запускает внешнюю программу, которая позволяет редактировать игровые конфигурационные ресурсы в реальном времени.
+contentCreation.navigation.blockbench = Редактор моделей
+contentCreation.navigation.blockbench.tooltipTitle = Запустить приложение Blockbench (редактор моделей)
+contentCreation.navigation.blockbench.tooltipDesc = Создавай свои собственные модели и анимации для Hytale.
+contentCreation.navigation.nodeeditor = Узловой редактор ресурсов
+contentCreation.navigation.nodeeditor.tooltipTitle = Запустить приложение узлового редактора ресурсов
+contentCreation.navigation.nodeeditor.tooltipDesc = Редактируй ресурсы с помощью визуального узлового редактора скриптов.
+contentCreation.navigation.machinima = Машинима
+contentCreation.navigation.machinima.tooltipTitle = Открыть редактор машинимы
+contentCreation.navigation.machinima.tooltipDesc = Создавай свои собственные фильмы внутри Hytale с помощью редактора машинимы.
+contentCreation.navigation.buildertools = Инструменты строителя
+contentCreation.navigation.buildertools.tooltipTitle = Открыть инструменты строителя
+contentCreation.navigation.buildertools.tooltipDesc = Инструменты редактирования блоков (Выделение, Кисть, Скульптор и т.д.)\n\
+\n\
+Изменяй блоки в своём мире с помощью инструментов редактирования блоков, находящихся во вкладках инструментов творческого инвентаря.
+
+contentCreation.modal.nodeeditor.nonsupported.title = Неподдерживаемая платформа
+contentCreation.modal.nodeeditor.nonsupported.text = Узловой редактор в настоящее время не поддерживается на твоей платформе.\n\nВ данный момент мы поддерживаем только Windows и работаем над тем, чтобы добавить эту функцию на все PC платформы.
+
+contentCreation.navigation.worldtools = Мир
+contentCreation.navigation.worldtools.prefabEditor = Редактор префабов
+contentCreation.navigation.worldtools.prefabEditor.tooltipTitle = Создавай или редактируй префабы в отдельном пространстве.
+contentCreation.navigation.worldtools.prefabList = Список префабов
+contentCreation.navigation.worldtools.prefabList.tooltipTitle = Список всех созданных пользователем префабов; нажми на один, чтобы загрузить его в инструмент вставки.
+contentCreation.navigation.worldtools.spawnEntity = Создать существо
+contentCreation.navigation.worldtools.spawnParticle = Создать частицу
+contentCreation.navigation.worldtools.changeModel = Изменить модель игрока
+contentCreation.navigation.worldtools.tintChunk = Окрасить чанк
+contentCreation.navigation.worldtools.instances = Инстансы
+contentCreation.navigation.worldtools.playSound = Воспроизвести звук
+contentCreation.navigation.worldtools.playSound.tooltipTitle = Просматривай и воспроизводи звуковые события.
+contentCreation.navigation.worldtools.importObj = Импортировать OBJ
+contentCreation.navigation.worldtools.importObj.tooltipTitle = Преобразуй 3D-модели OBJ в воксели и скопируй в буфер обмена.
+contentCreation.navigation.worldtools.importImage = Импортировать изображение
+contentCreation.navigation.worldtools.importImage.tooltipTitle = Преобразуй 2D-изображения в блочное искусство и скопируй в буфер обмена.
+
+contentCreation.navigation.help = Справка
+contentCreation.navigation.help.commands = Команды
+
+# === controls ===
+# Timeline Control
+controls.timeline.tooltip.muteTrack = Отключить звук дорожки
+controls.timeline.tooltip.playPause = Воспроизведение/Пауза
+controls.timeline.tooltip.stop = Стоп
+controls.timeline.tooltip.addTrack = Добавить дорожку
+controls.timeline.button.autoRestart = Автоперезапуск
+controls.timeline.tooltip.toggleLoop = Переключить зацикливание
+controls.timeline.label.time = Время: {time}с
+controls.timeline.label.frame = Кадр: {frame}
+controls.timeline.label.duration = Длительность: {duration}
+controls.timeline.label.fps = FPS: {fps}
+controls.timeline.tooltip.keyframe = Кадр: {time}
+
+# === devTools ===
+devTools.tabs.Console = Консоль
+devTools.tabs.GameInfo = Информация об игре
+
+devTools.options = Опции
+
+devTools.popupMenu.copyGameInfo = Скопировать информацию об игре в буфер обмена
+devTools.popupMenu.createDefect = Создать отчёт о проблеме
+
+devTools.gameStats.popupMenu.editInAssetEditor = Редактировать в редакторе ресурсов
+devTools.gameStats.popupMenu.copyValue = Скопировать значение
+
+devTools.logEntry.popupMenu.copyMessage = Скопировать сообщение
+
+devTools.gameInfo.sections.Build = Сборка
+devTools.gameInfo.sections.Hardware = Оборудование
+devTools.gameInfo.sections.World = Мир
+devTools.gameInfo.sections.Chunks = Чанки
+devTools.gameInfo.sections.AtlasSizes = Размеры атласов
+devTools.gameInfo.sections.Assets = Ресурсы
+devTools.gameInfo.sections.UI = Интерфейс
+devTools.gameInfo.sections.Particles = Частицы
+devTools.gameInfo.sections.Network = Сеть
+
+devTools.gameInfo.keys.Branch = Ветка
+devTools.gameInfo.keys.Revision = Ревизия
+devTools.gameInfo.keys.FrameworkVersion = Версия .Net
+
+devTools.gameInfo.keys.GPUVendor = GPU
+devTools.gameInfo.keys.GPURenderer = Рендерер GPU
+devTools.gameInfo.keys.GPUVersion = Версия GPU
+devTools.gameInfo.keys.WindowSize = Размер окна
+devTools.gameInfo.keys.ViewportSize = Размер области просмотра
+devTools.gameInfo.keys.SceneSize = Размер сцены
+
+devTools.gameInfo.keys.Biome = Биом
+devTools.gameInfo.keys.Zone = Зона
+devTools.gameInfo.keys.Environment = Окружение
+devTools.gameInfo.keys.Weather = Погода
+devTools.gameInfo.keys.Entities = Существа
+devTools.gameInfo.keys.AudioEvents = Аудиособытия
+devTools.gameInfo.keys.SoundEffect = Звуковой эффект
+devTools.gameInfo.keys.ViewDistance = Дальность прорисовки
+devTools.gameInfo.keys.Heightmap = Карта высот
+devTools.gameInfo.keys.Tint = Оттенок
+devTools.gameInfo.keys.Light = Свет
+devTools.gameInfo.keys.Music = Музыка
+devTools.gameInfo.keys.TargetBlock = Целевой блок
+devTools.gameInfo.keys.HitBox = Хитбокс
+devTools.gameInfo.keys.Orientation = Ориентация
+devTools.gameInfo.keys.FeetPosition = Позиция ног
+devTools.gameInfo.keys.ChunkPosition = Позиция чанка
+
+devTools.gameInfo.keys.MapAtlasSize = Карта
+devTools.gameInfo.keys.EntityAtlasSize = Существа
+devTools.gameInfo.keys.IconAtlasSize = Значки
+devTools.gameInfo.keys.UIAtlasSize = Интерфейс
+devTools.gameInfo.keys.CustomUIAtlasSize = Пользовательский интерфейс
+
+devTools.gameInfo.keys.ChunksLoaded = Загружено
+devTools.gameInfo.keys.ChunksDrawable = Отрисовываемых
+devTools.gameInfo.keys.ChunksMax = Максимум
+devTools.gameInfo.keys.ChunksQueued = В очереди
+devTools.gameInfo.keys.ChunksRebuilding = Перестраиваемых
+devTools.gameInfo.keys.ChunksUploadReady = Готовых к загрузке
+devTools.gameInfo.keys.ChunksToUpdate = К обновлению
+devTools.gameInfo.keys.ChunksUpToDate = Актуальных
+
+devTools.gameInfo.keys.ActivelyReferencedAssets = Активно используемых
+devTools.gameInfo.keys.BuiltInAssets = Встроенных
+devTools.gameInfo.keys.CachedAssets = В кэше
+
+devTools.gameInfo.keys.UIScale = Масштаб
+
+devTools.gameInfo.keys.ParticleSystems = Систем
+devTools.gameInfo.keys.ParticleProxies = Прокси
+devTools.gameInfo.keys.ParticleBlend = Смешивание
+devTools.gameInfo.keys.ParticleDistortion = Искажение
+devTools.gameInfo.keys.ParticleErosion = Эрозия
+
+devTools.gameInfo.keys.NetworkSent = Отправлено
+devTools.gameInfo.keys.NetworkReceived = Получено
+
+# === disconnection ===
+disconnection.title.disconnected = Отключён от сервера
+disconnection.title.failedToConnect = Не удалось подключиться к серверу
+
+disconnection.button.quitToMainMenu = Выйти в главное меню
+disconnection.button.reconnect = Переподключиться
+disconnection.button.reconnect.inProgress = Переподключение...
+
+disconnection.button.tryAgain = Попробовать снова
+disconnection.button.tryAgain.inProgress = Подключение...
+
+disconnection.autoConnectingIn = Подключение через {seconds}
+
+disconnection.error.unexpectedError = Произошла непредвиденная ошибка
+disconnection.error.noConnectectionEstablished = Не удалось установить соединение
+
+# === gameLoadingView ===
+gameLoadingView.hints.constructionThanks = Спасибо, что играешь, пока мы находимся в разработке!
+gameLoadingView.hints.futureTipsAndTricks = Этот экран будет показывать тебе советы и подсказки, чтобы помочь в твоём приключении.
+
+gameLoadingView.status.waitingForShutdown = Ожидание завершения работы сервера...
+gameLoadingView.status.connecting = Подключение...
+gameLoadingView.status.connectingP2P = Подключение к "{name}" игрока {host}... ({current}/{total})
+gameLoadingView.status.bootingServer = Запуск сервера...
+gameLoadingView.status.enterPassword = Введи пароль сервера
+gameLoadingView.status.wrongPassword = Неверный пароль. Осталось попыток: {attempts, plural, one {#} few {#} many {#} other {#}}.
+
+gameLoadingView.password.title = Пароль сервера
+gameLoadingView.password.submit = Войти
+
+# === gamePageNavigation ===
+gamePageNavigation.buttons.Inventory = Инвентарь
+gamePageNavigation.buttons.Map = Карта
+gamePageNavigation.buttons.ContentCreation = Инструменты творчества
+gamePageNavigation.buttons.ContentCreation.disabledTooltip = Меню творчества доступно только в творческом режиме.
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = [TMP] ТВОРЧЕСКИЙ РЕЖИМ
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = [TMP] В творческом режиме ты получаешь доступ к мощным инструментам редактирования. Чтобы переключиться в творческий режим, используй '/op self', затем переключи игровой режим горячей клавишей 'O'
+gamePageNavigation.earlyAccess = Ранний доступ
+
+# === general ===
+general.button.cancel = Отмена
+general.button.confirm = Подтвердить
+general.button.save = Сохранить
+general.button.ok = Ок
+general.button.saveChanges = Сохранить изменения
+general.button.discardChanges = Отменить изменения
+general.button.resetDefaults = Сбросить к настройкам по умолчанию
+general.button.close = Закрыть
+general.button.back = Назад
+general.button.add = Добавить
+general.button.delete = Удалить
+general.button.remove = Удалить
+general.button.edit = Редактировать
+general.button.select = Выбрать
+general.button.browse = Обзор
+
+general.label.loading = Загрузка...
+
+general.searchField.placeholder = Поиск
+general.filterField.placeholder = Фильтр
+
+general.dialog.error.title = Ошибка
+
+general.checkbox.on = Вкл
+general.checkbox.off = Выкл
+
+general.gamemodes.adventure = Приключение
+general.gamemodes.creative = Творчество
+
+general.relativeTime.now = Только что
+general.relativeTime.lessThanAMinute = Меньше минуты назад
+general.relativeTime.minute = минуту назад
+general.relativeTime.minutes = {minutes} мин. назад
+general.relativeTime.hour = час назад
+general.relativeTime.hours = {hours} ч. назад
+general.relativeTime.day = день назад
+general.relativeTime.days = {days} дн. назад
+general.relativeTime.month = месяц назад
+general.relativeTime.months = {months} мес. назад
+general.relativeTime.year = год назад
+general.relativeTime.years = {years} г. назад
+
+general.chatMessage.failedToSaveScreenshot = Не удалось сохранить скриншот!
+general.chatMessage.requestCancelled = Запрос был отменён
+
+# === hud ===
+hud.playerList.onlinePlayers = Игроки онлайн
+hud.playerList.username = Имя пользователя
+hud.playerList.ping = Пинг
+
+hud.itemSlotSelector.noItem = Нет предмета
+hud.itemSlotSelector.empty = Пусто
+hud.itemSlotSelector.invalidItem = Недопустимый предмет
+
+hud.entityEffects.defaultBuffName = Бафф
+hud.entityEffects.defaultDebuffName = Дебафф
+
+hud.portalPanel.title = {name}
+hud.portalPanel.portalLabel = Фрагмент Орбиса
+hud.portalPanel.timeUntilBreach = Время до прорыва пустоты
+hud.portalPanel.timeUntilClose = Время до закрытия портала
+
+hud.inputBindings.inventory = Инвентарь
+hud.inputBindings.creationTools = Инструменты творчества
+hud.inputBindings.map = Карта
+hud.inputBindings.rotateBlock = Повернуть
+hud.inputBindings.selectBlockVariant = Вариант блока
+
+hud.networkQuality.ping.good = Низкая задержка (<50мс)
+hud.networkQuality.ping.okay = Умеренная задержка (50-100мс) - ты можешь заметить небольшие лаги.
+hud.networkQuality.ping.poor = Высокая задержка (100-200мс) - ты можешь испытывать лаги.
+hud.networkQuality.ping.bad = Очень высокая задержка (>=200мс) - игровой процесс может быть медленным или неотзывчивым.
+hud.networkQuality.jitter.good = Низкий джиттер (<5мс)
+hud.networkQuality.jitter.okay = Умеренный джиттер (5-15мс) - ты можешь заметить небольшие подёргивания.
+hud.networkQuality.jitter.poor = Высокий джиттер (15-30мс) - игровой процесс может ощущаться неравномерным.
+hud.networkQuality.jitter.bad = Очень высокий джиттер (>=30мс) - могут возникать частые скачки лагов или эффект резинки.
+hud.networkQuality.packetLoss.good = Низкая потеря пакетов (<0.1%)
+hud.networkQuality.packetLoss.okay = Умеренная потеря пакетов (0.1-1%) - ты можешь замечать случайные задержки или пропущенные действия.
+hud.networkQuality.packetLoss.poor = Высокая потеря пакетов (1-3%) - некоторые действия или обновления могут не регистрироваться.
+hud.networkQuality.packetLoss.bad = Очень высокая потеря пакетов (>=3%) - могут возникать серьёзные рассинхронизации или отключения.
+
+hud.networkQuality.worldSaving = Сохранение мира
+hud.networkQuality.offlineMode = Автономный режим - Твоя сессия истекла. Перезапусти игру, чтобы вернуться в онлайн.
+
+hud.sleep.awaiting = {asleep}/{total} игроков спят...
+hud.sleep.waitingOn = Ожидание {who}
+
+hud.chat.openLinkModal.title = Открыть внешний веб-сайт?
+hud.chat.openLinkModal.text = Ты собираешься открыть веб-сайт "{url}" в браузере. \n\
+\n\
+Будь осторожен при переходе по ссылкам от других игроков, особенно если они запрашивают личную информацию.\n\
+\n\
+Ты уверен, что хочешь продолжить?
+hud.chat.openLinkModal.confirm = Открыть веб-сайт
+
+# === inventory ===
+inventory.chest.title = Сундук
+inventory.chest.tooltip.takeAll = Взять всё - Переместить все предметы из контейнера в инвентарь.
+inventory.chest.tooltip.putAll = Положить всё - Переместить все предметы из инвентаря в контейнер.
+inventory.chest.tooltip.quickStack = Быстрая сортировка - Переместить предметы из инвентаря в контейнер для типов предметов, уже присутствующих в нём.
+
+inventory.inventory.title = Инвентарь
+inventory.itemQuantityPopup.title = Разделить стопку:
+
+inventory.itemLibrary.title = Библиотека предметов
+inventory.itemLibrary.options.title = Опции
+inventory.itemLibrary.options.showVariants = Показывать варианты
+
+inventory.itemPreview.title = Предпросмотр предмета
+
+inventory.character.tooltip.togglePocketCrafting = Переключить карманный крафт
+inventory.character.tooltip.toggleBackpack = Переключить рюкзак
+inventory.character.tooltip.lockedBackpack = Разблокируется созданием улучшения рюкзака.
+inventory.character.tooltip.toggleMemories = Переключить собранные воспоминания
+inventory.character.tooltip.disabledMemories = [TMP] Воспоминания отключены в этом контексте.
+inventory.character.tooltip.disabledBackpack = [TMP] Рюкзак отключён в этом контексте.
+inventory.character.tooltip.lockedMemories = Найди Забытый Храм, чтобы узнать больше.
+inventory.character.tooltip.pocketCraftingDisabled = [TMP] Карманный крафт отключён в этом контексте.
+
+inventory.character.stats.mana = Мана
+inventory.character.stats.health = Здоровье
+inventory.character.stats.stamina = Выносливость
+inventory.character.stats.defense = Защита
+inventory.character.stats.stats = Характеристики
+
+inventory.crafting.title = Крафт
+inventory.crafting.button.craft = Создать
+inventory.crafting.button.craft1 = Создать
+inventory.crafting.button.craft10 = x10
+inventory.crafting.button.craft10.tooltip = Создать x10
+inventory.crafting.button.craftAll = Всё
+inventory.crafting.button.craftAll.tooltip = Создать всё
+inventory.crafting.button.craftX = x{count}
+inventory.crafting.button.crafting = Создание...
+inventory.crafting.unknownItem = Неизвестный предмет
+
+inventory.crafting.unknownItem.knowledgeRequired = Рецепт ещё не открыт
+inventory.crafting.unknownItem.memoriesCountRequired = Найди <color is="#f1ba50">Забытый Храм</color> и восстанови {memories} воспоминаний, чтобы разблокировать этот рецепт!
+inventory.crafting.lockedItem.benchTierLevelRequired = Требуется {benchname} уровня {level}
+
+inventory.bench.tierLevelX = Уровень {level}
+inventory.bench.tierLevelX.requirements = Требования для уровня {level}
+inventory.bench.tierLevelX.upgrade = Улучшить до уровня {level}
+inventory.bench.tier.button.upgrade = Улучшить
+inventory.bench.tier.max = ДОСТИГНУТ МАКСИМАЛЬНЫЙ УРОВЕНЬ
+
+inventory.crafting.ingredient.tooltip.pullingFromChests = У тебя недостаточно ингредиентов в инвентаре. Используются предметы из ближайших сундуков.
+
+inventory.crafting.options.hideUnknownRecipes = Скрыть неизвестные рецепты
+
+inventory.processing.button.turnOn = Включить
+inventory.processing.button.turnOff = Выключить
+inventory.processing.panel.fuel.title = Топливо
+inventory.processing.panel.output.title = Результат
+
+inventory.panel.input.title = Входные материалы
+
+inventory.itemInfo.title = Информация о предмете
+inventory.itemInfo.hoverInfo = Наведи курсор на предмет, чтобы узнать о нём больше здесь.
+inventory.itemInfo.itemSet = Набор предметов
+
+inventory.recipesButton = Рецепты
+
+inventory.recipeCataloguePopup.title = Каталог рецептов
+
+inventory.fieldcraft.title = Карманный крафт
+
+inventory.storage.filterTooltips.weapons = Показывать только оружие
+inventory.storage.filterTooltips.armor = Показывать только броню
+inventory.storage.filterTooltips.blocks = Показывать только строительные материалы
+
+inventory.button.autoSort.tooltip = Сортировать предметы по типу
+inventory.dropdown.autoSortBy = Автосортировка по:
+inventory.dropdown.autoSort.types.Name = Имя
+inventory.dropdown.autoSort.types.Type = Тип
+inventory.dropdown.autoSort.types.Rarity = Редкость
+
+inventory.memories.title = Собранные воспоминания
+
+inventory.action.toggleBuilderTools = Переключить инструменты строителя
+inventory.action.pickHalf = Взять половину
+inventory.action.pickOne = Взять один
+inventory.action.smartMove = Переместить
+inventory.action.resize = Изменить размер
+inventory.action.placeOne = Положить один
+inventory.action.resizeMod = Изменить размер x5
+
+# === itemTooltip ===
+itemTooltip.resourceType.name = Ресурс: {name}
+itemTooltip.id = ID:
+itemTooltip.utility = Утилита
+itemTooltip.consumable = Расходуемое
+
+itemTooltip.cursed.label = Проклятый
+itemTooltip.cursed.help = Переживи фрагмент для очищения
+
+itemTooltip.stats.Health = Здоровье
+itemTooltip.stats.Stamina = Выносливость
+itemTooltip.stats.Mana = Мана
+itemTooltip.stats.Oxygen = Кислород
+itemTooltip.stats.Defense = Защита
+itemTooltip.stats.FireResistance = Сопротивление огню
+itemTooltip.stats.WaterResistance = Сопротивление воде
+itemTooltip.stats.EarthResistance = Сопротивление земле
+itemTooltip.stats.AirResistance = Сопротивление воздуху
+itemTooltip.stats.SignatureEnergy = Энергия подписи
+itemTooltip.stats.Ammo = Боеприпасы
+itemTooltip.stats.SignatureCharges = Заряды подписи
+
+itemTooltip.damageClass.unknown = Неизвестно
+itemTooltip.damageClass.light = Лёгкая атака
+itemTooltip.damageClass.charged = Заряженная атака
+itemTooltip.damageClass.signature = Подписная атака
+
+itemTooltip.increases = Увеличивает
+itemTooltip.decreases = Уменьшает
+itemTooltip.modifies = Изменяет
+itemTooltip.damageBy = урон на:
+itemTooltip.resistance = Сопротивление:
+
+itemTooltip.oneHanded = Одноручное
+itemTooltip.twoHanded = Двуручное
+
+# === machinima ===
+machinima.bindings.TogglePause = Переключить паузу
+machinima.bindings.ToggleDisplay = Переключить отображение
+machinima.bindings.ToggleCamera = Переключить камеру
+machinima.bindings.RestartScene = Перезапустить сцену
+machinima.bindings.FrameDecrement = Уменьшить кадр
+machinima.bindings.FrameIncrement = Увеличить кадр
+machinima.bindings.FrameTimeDecrease = Уменьшить время кадра
+machinima.bindings.FrameTimeIncrease = Увеличить время кадра
+machinima.bindings.KeyframeDecrement = Уменьшить ключевой кадр
+machinima.bindings.KeyframeIncrement = Увеличить ключевой кадр
+machinima.bindings.PlaybackSpeedDecrease = Уменьшить скорость воспроизведения
+machinima.bindings.PlaybackSpeedIncrease = Увеличить скорость воспроизведения
+machinima.bindings.AddKeyframe = Добавить ключевой кадр
+machinima.bindings.RemoveKeyframe = Удалить ключевой кадр
+machinima.bindings.EditKeyframe = Редактировать ключевой кадр
+machinima.bindings.OriginAction = Действие с началом координат
+machinima.bindings.CycleSelectionMode = Переключить режим выделения
+
+# Header
+machinima.header.placeholder.selectScene = Выбери сцену
+machinima.header.button.create = Создать
+machinima.header.button.delete = Удалить
+machinima.header.button.save = Сохранить
+machinima.header.button.settings = Настройки
+machinima.header.button.help = Справка
+
+# Modal Titles
+machinima.modal.title.inputBindings = Привязки клавиш
+machinima.modal.title.editScene = Редактировать сцену
+machinima.modal.title.createScene = Создать новую сцену
+machinima.modal.title.createActor = Создать нового актёра
+machinima.modal.title.editActor = Редактировать актёра
+machinima.modal.title.editKeyframeEvent = Редактировать событие ключевого кадра
+machinima.modal.title.addKeyframeSetting = Добавить настройку ключевого кадра
+machinima.modal.title.addKeyframeEvent = Добавить событие ключевого кадра
+machinima.modal.title.deleteEvent = Удалить событие
+machinima.modal.title.deleteScene = Удалить сцену
+
+# Modal Buttons
+machinima.modal.button.close = Закрыть
+machinima.modal.button.saveChanges = Сохранить изменения
+machinima.modal.button.createScene = Создать сцену
+machinima.modal.button.createActor = Создать актёра
+machinima.modal.button.addSetting = Добавить настройку
+machinima.modal.button.addEvent = Добавить событие
+machinima.modal.button.delete = Удалить
+
+# Modal Messages
+machinima.modal.message.deleteEvent = Хочешь удалить событие '{name}'?
+machinima.modal.message.deleteScene = Хочешь удалить сцену '{name}'?
+
+# Modal Labels
+machinima.modal.label.name = Имя
+machinima.modal.label.type = Тип
+machinima.modal.label.animationSlot = Слот анимации
+machinima.modal.label.animationId = ID анимации
+machinima.modal.label.command = Команда
+machinima.modal.label.particleSystem = Система частиц
+machinima.modal.label.targetActor = Целевой актёр
+machinima.modal.label.actorType = Тип актёра
+machinima.modal.label.item = Предмет
+machinima.modal.label.scale = Масштаб
+machinima.modal.label.model = Модель
+machinima.modal.label.fieldOfView = Поле зрения
+machinima.modal.label.lighting = Излучение света
+machinima.modal.label.light = Цвет света
+
+# Modal Checkboxes
+machinima.modal.checkbox.activateCamera = Активировать камеру
+
+# Modal Placeholders
+machinima.modal.placeholder.actorName = Имя актёра
+machinima.modal.placeholder.selectActorType = Выбери тип актёра
+machinima.modal.placeholder.selectEvent = Выбери событие
+machinima.modal.placeholder.selectItem = Выбери предмет
+
+# Keyframe Editor
+machinima.keyframe.tab.settings = Настройки
+machinima.keyframe.tab.events = События
+machinima.keyframe.button.addSetting = Добавить настройку
+machinima.keyframe.button.addEvent = Добавить событие
+machinima.keyframe.button.edit = Редактировать
+machinima.keyframe.button.delete = Удалить
+machinima.keyframe.tooltip.deleteEvent = Удалить событие
+
+# === mainMenu ===
+# Navigation
+
+mainMenu.navigation.quit = Выход
+mainMenu.navigation.settings = Настройки
+mainMenu.navigation.worlds = Миры
+mainMenu.navigation.minigames = Мини-игры
+mainMenu.navigation.servers = Серверы
+mainMenu.navigation.avatar = Мой аватар
+mainMenu.navigation.shop = Магазин
+
+mainMenu.discord.button.label = Присоединиться к Discord
+mainMenu.discord.button.tooltip = Открыть наш Discord во внешнем браузере
+
+mainMenu.feedback.button.label = [TMP] Оставить отзыв
+
+# Minigames
+
+mainMenu.minigames.title = Мини-игры
+mainMenu.minigames.title.appendix = Скоро появятся!
+
+mainMenu.minigames.wip.title = В РАЗРАБОТКЕ
+mainMenu.minigames.wip.text = Этот игровой режим будет доступен в будущем
+
+# Shop
+
+mainMenu.shop.title = Доступные издания
+mainMenu.shop.owned = Куплено
+mainMenu.shop.upgrade = Улучшить
+
+# Multiplayer
+
+mainMenu.servers.title = Серверы
+
+mainMenu.servers.groups.recent = Недавние
+mainMenu.servers.groups.favorite = Избранное
+mainMenu.servers.groups.friends = Друзья
+mainMenu.servers.groups.all = Все серверы
+mainMenu.servers.groups.lan = Локальные
+
+mainMenu.servers.groups.join = Присоединиться к серверу
+mainMenu.servers.groups.homepage = Посмотреть полную страницу сервера
+
+mainMenu.servers.lookingForLan = Поиск локальных серверов...
+mainMenu.servers.connectingToServer = Подключение к {name}...
+mainMenu.servers.connect = Подключиться
+mainMenu.servers.connectionAddress = Адрес подключения
+mainMenu.servers.connectDirectly = Прямое подключение
+mainMenu.servers.joinViaCode = Присоединиться по коду
+mainMenu.servers.inviteCode = Код приглашения
+mainMenu.servers.inviteCodePlaceholder = Вставь код приглашения сюда...
+mainMenu.servers.join = Присоединиться
+mainMenu.servers.joinViaCode.error.empty = Пожалуйста, введи код приглашения
+mainMenu.servers.joinViaCode.error.invalidCode = Неверный формат кода приглашения
+mainMenu.servers.joinViaCode.error.expired = Срок действия этого кода приглашения истёк
+mainMenu.servers.joinViaCode.error.failedToConnect = Не удалось подключиться ни к одному доступному адресу
+mainMenu.servers.joinViaCode.status.connecting = Попытка подключения к кандидатам...
+
+mainMenu.servers.noFavoriteServers.title = Серверы не добавлены
+mainMenu.servers.noFavoriteServers.text = Ты можешь добавить сервер в свой список, нажав "Добавить сервер" ниже.
+mainMenu.servers.noLanServers.title = Серверы не найдены
+mainMenu.servers.noLanServers.text = Серверы, которые доступны для обнаружения в той же локальной сети, появятся здесь.
+
+# Online Play Settings
+mainMenu.onlinePlay.title = Онлайн-игра
+mainMenu.onlinePlay.shareCode = Поделиться кодом
+mainMenu.onlinePlay.shareCode.hintActive = Поделись этим кодом с друзьями, чтобы они могли присоединиться к твоему миру, используя "Присоединиться по коду" в меню серверов.
+mainMenu.onlinePlay.shareCode.hintInactive = Включи "Разрешить присоединение других игроков" и нажми "Сохранить", чтобы получить код для совместной игры.
+mainMenu.onlinePlay.shareCode.ipWarning = Внимание: Этот код содержит твой IP-адрес. Делись только с теми, кому доверяешь.
+mainMenu.onlinePlay.shareCode.placeholder = Код ещё не создан
+mainMenu.onlinePlay.shareCode.copy = Скопировать в буфер обмена
+mainMenu.onlinePlay.setting.allowPlayers = Разрешить присоединение других игроков
+mainMenu.onlinePlay.setting.password = Пароль
+mainMenu.onlinePlay.setting.password.placeholder = Без пароля
+mainMenu.onlinePlay.setting.includePasswordInCode = Включить пароль в код для совместной игры
+mainMenu.onlinePlay.status.copiedToClipboard = Скопировано в буфер обмена!
+mainMenu.onlinePlay.status.connecting = Установка соединения... Это может занять несколько секунд.
+mainMenu.onlinePlay.status.connectedVia = Подключено через {method}
+mainMenu.onlinePlay.status.failed = Не удалось установить соединение. Попробуй снова или проверь настройки брандмауэра.
+mainMenu.onlinePlay.natType = Тип NAT: {type}
+mainMenu.onlinePlay.natType.Unknown = Неизвестно
+mainMenu.onlinePlay.natType.None = Без NAT (прямое подключение)
+mainMenu.onlinePlay.natType.NatWithUpnp = Стандартный (UPnP)
+mainMenu.onlinePlay.natType.NatWithoutUpnp = Ограниченный (без UPnP)
+mainMenu.onlinePlay.natType.DoubleNat = Двойной NAT
+mainMenu.onlinePlay.natType.CarrierGradeNat = NAT уровня провайдера (CGNAT)
+mainMenu.onlinePlay.connectionWarning = Внимание: Конфигурация твоей сети может препятствовать подключению других игроков.
+mainMenu.onlinePlay.wipWarning = Это экспериментальная функция, которая сильно зависит от твоего окружения. Если она не работает, пожалуйста, обратись к статье поддержки по адресу <u><a href="joining-friends">{url}</a></u>.
+
+mainMenu.servers.button.joinServer = Присоединиться к серверу
+mainMenu.servers.button.editServer = Редактировать сервер
+mainMenu.servers.button.addServer = Добавить сервер
+
+mainMenu.servers.editPopup.addServer = Добавить сервер
+mainMenu.servers.editPopup.editServer = Редактировать сервер
+mainMenu.servers.editPopup.name = Имя
+mainMenu.servers.editPopup.error.invalidAddress = Пожалуйста, введи корректный адрес сервера
+mainMenu.servers.editPopup.error.invalidName = Пожалуйста, введи корректное имя сервера
+
+mainMenu.servers.name = Имя
+mainMenu.servers.description = Описание
+mainMenu.servers.online = Онлайн
+mainMenu.servers.tags = Теги
+mainMenu.servers.rating = Рейтинг
+mainMenu.servers.ping = Пинг
+
+mainMenu.servers.failedToFetch = Не удалось загрузить список серверов
+
+mainMenu.servers.details.host = Хост: {host}
+mainMenu.servers.details.languages = Поддерживаемые языки: {languages}
+mainMenu.servers.details.uuid = UUID: {uuid}
+mainMenu.servers.details.online = Онлайн: {online}
+mainMenu.servers.details.branch = Ветка: {name}
+mainMenu.servers.details.favoriteYes = Избранное: Да
+mainMenu.servers.details.favoriteNo = Избранное: Нет
+
+mainMenu.servers.offline.title = Мультиплеер недоступен
+mainMenu.servers.offline.description.offline = Ты находишься в автономном режиме.\n\
+    Чтобы играть в мультиплеере, перезапусти игру в онлайн-режиме.
+mainMenu.servers.offline.description.connecting = Подключение к серверам Hytale, попробуй снова через мгновение...
+mainMenu.servers.offline.description.unavailable = Мультиплеер в настоящее время недоступен, так как у нас возникли проблемы с подключением к серверам Hytale. Попробуй позже или перезапусти игру.
+
+# Worlds
+
+mainMenu.worldType = Мир {worldType}
+mainMenu.worldTypes.adventure = Приключение
+mainMenu.worldTypes.creative = Творчество
+mainMenu.worldTypes.exploration = Исследование
+
+mainMenu.worldCreation.creative.mainDescription = Раскрой свой потенциал аватара и развивай свою территорию с помощью мощных инструментов творчества.
+mainMenu.worlds.creativeModeDescription = Раскрой свой потенциал аватара и развивай свою территорию с помощью мощных инструментов творчества.
+mainMenu.worlds.selectWorld = Выбери мир
+mainMenu.worlds.selectWorldAppendix = Выбери сохранённый мир или начни новый
+mainMenu.worlds.editWorld = Редактировать мир
+mainMenu.worlds.failedToDeleteWorld = Не удалось удалить мир
+mainMenu.worlds.settings = Настройки
+mainMenu.worlds.worldName = Имя мира
+mainMenu.worlds.gamemode = Игровой режим
+mainMenu.worlds.flatWorld = Плоский мир
+mainMenu.worlds.randomWorld = Случайный мир
+mainMenu.worlds.creativeMode = Творческий режим
+mainMenu.worlds.creativeModeStandard = Стандартный
+mainMenu.worlds.creativeModeHub = Творческий хаб
+mainMenu.worlds.creativeModeGenerated = [TMP] Генерируемый мир
+mainMenu.worlds.npcSpawning = NPC
+mainMenu.worlds.noNpcSpawning = Без NPC
+mainMenu.worlds.deleteWorld = Удалить мир
+mainMenu.worlds.deleteWorldConfirmation = Ты уверен, что хочешь удалить мир "{name}"?
+mainMenu.worlds.openFolder = Открыть папку
+mainMenu.worlds.createWorld = Создать мир
+mainMenu.worlds.saveWorldSettings = Сохранить настройки мира
+mainMenu.worlds.newWorld = Новый мир
+mainMenu.worlds.worldOptions = Опции мира
+mainMenu.worlds.defaultWorldName = Новый мир
+mainMenu.worlds.defaultSettings = Настройки по умолчанию
+mainMenu.worlds.customSettings = Пользовательские настройки
+mainMenu.worlds.settings.pvp = PvP
+mainMenu.worlds.settings.enabled = Включено
+mainMenu.worlds.settings.disabled = Отключено
+mainMenu.worlds.settings.fallDamage = Урон от падения
+mainMenu.worlds.settings.pauseTime = Пауза времени
+mainMenu.worlds.settings.dayNightCycle = [TMP] Цикл дня/ночи
+mainMenu.worlds.settings.dayDuration = [TMP] Длительность дня (секунды)
+mainMenu.worlds.settings.nightDuration = [TMP] Длительность ночи (секунды)
+mainMenu.worlds.settings.customTime = [TMP] Пользовательское время
+mainMenu.worlds.settings.applyWorldSettings = Применить настройки
+mainMenu.worlds.settings.restoreSettings = Восстановить по умолчанию
+mainMenu.worlds.settings.deathPenalty = [TMP] Штраф инвентаря при смерти
+mainMenu.worlds.settings.deathPenalty.tooltip = [TMP] Определяет штраф инвентаря при смерти игрока.\n\
+<b><color is="#f1ba50">Нет</color></b>: Игрок не будет терять предметы при смерти.\n\
+<b><color is="#f1ba50">Потерять всё</color></b>: Игрок потеряет все предметы инвентаря при смерти.\n\
+<b><color is="#f1ba50">Частичная потеря</color></b>: Игрок потеряет только предметы, настроенные для потери при смерти в определённом количестве.
+mainMenu.worlds.settings.resourceLoss = [TMP] Потеря ресурсов % при смерти
+mainMenu.worlds.settings.durabilityLoss = [TMP] Потеря прочности % при смерти
+mainMenu.worlds.settings.deathPenaltyNone = [TMP] Нет
+mainMenu.worlds.settings.deathPenaltyDropAll = [TMP] Потерять всё
+mainMenu.worlds.settings.deathPenaltyPartial = [TMP] Частичная потеря
+
+mainMenu.worlds.adventureMode.wip.text = [Недоступно во время раннего доступа]
+mainMenu.worlds.exploartionMode.wip.text = [Предварительная версия для раннего доступа]
+mainMenu.worlds.explorationModeDescription = Исследуй эхо Орбиса. Строй, создавай предметы, выживай и найди способ восстановить то, что было потеряно.
+mainMenu.worlds.worldDoesntExist.title = Неизвестный мир
+mainMenu.worlds.worldDoesntExist.message = Мир, который ты пытался открыть, не существует.
+mainMenu.worlds.noModsFound = Моды недоступны
+mainMenu.worlds.mods = Моды
+mainMenu.worlds.modType.pack = Пакет
+mainMenu.worlds.modType.plugin = Плагин
+
+mainMenu.assetEditor.errorModal.missingDirectory.title = Выбери директорию
+mainMenu.assetEditor.errorModal.missingDirectory.text = Тебе нужно указать путь к ресурсам перед использованием редактора ресурсов
+mainMenu.assetEditor.errorModal.invalidDirectory.title = Недопустимая директория
+mainMenu.assetEditor.errorModal.invalidDirectory.text = Выбранная директория для редактора ресурсов не похожа на корректную директорию ресурсов. Требуются папки Common и Server
+mainMenu.assetEditor.errorModal.openSettingsButton = Открыть настройки
+
+# Early Access Panel
+mainMenu.earlyAccessPanel.title = Ранний доступ\nОговорка
+mainMenu.earlyAccessPanel.text = Это ранний доступ к Hytale; игра всё ещё находится в активной разработке. Ожидай ошибки и изменения по мере работы над полным релизом.\n\nСпасибо за поддержку!
+
+# === map ===
+map.title = Карта мира
+
+map.contextMenu.teleport = Телепортироваться
+map.contextMenu.selectLocation = Выбрать локацию
+map.contextMenu.deselectLocation = Снять выделение с локации
+map.contextMenu.removeMarker = Удалить маркер
+
+map.disabled = Неизвестная локация
+
+map.actions.placeMarker = Разместить маркер
+map.actions.zoom = Приблизить/отдалить
+map.actions.playerList = Список игроков
+
+map.playerList.playerCount = ({players, number})
+map.playerList.playerCountWithMax = ({players, number}/{maxPlayers, number})
+map.playerList.worldOnly = Только мир
+map.playerList.titleWorld = Игроки мира
+map.playerList.titleServer = Игроки сервера
+map.playerList.inWorld = Этот игрок в твоём мире
+
+map.marker.localPlayer = Ты
+map.marker.targetLocation = Целевая локация
+
+# === mediaBrowser ===
+mediaBrowser.popularVideos = Популярные видео
+mediaBrowser.popularStreams = Популярные трансляции
+mediaBrowser.search = Поиск "{query}"
+mediaBrowser.currentlyPlaying = Сейчас воспроизводится
+mediaBrowser.live = В эфире
+
+mediaBrowser.youtube.errors.unreachable = Не удалось подключиться к YouTube
+mediaBrowser.youtube.errors.requestFailed = Не удалось получить данные от YouTube
+
+# === menuOverlay ===
+menuOverlay.buttons.returnToGame = Вернуться в игру
+menuOverlay.buttons.quitToDesktop = Выйти на рабочий стол
+menuOverlay.buttons.quitToMainMenu = Выйти в главное меню
+menuOverlay.buttons.codex = Кодекс
+menuOverlay.buttons.settings = Настройки
+menuOverlay.buttons.feedback = Отправить сообщение об ошибке или отзыв
+menuOverlay.buttons.onlinePlay = Онлайн-игра
+
+# === myAvatar ===
+myAvatar.button.resetOptions = Сбросить аватар
+myAvatar.button.resetClothing = Сбросить одежду
+myAvatar.button.randomize = Случайные опции
+myAvatar.button.undo = Отменить последнее изменение
+myAvatar.button.redo = Повторить последнее изменение
+myAvatar.button.playEmote = Воспроизвести анимацию
+
+myAvatar.playEmotePopup.title = Воспроизвести анимацию
+
+myAvatar.title = Настроить аватар
+
+myAvatar.lockProperty = Нажми, чтобы это свойство не менялось при использовании кнопки "Случайные опции"
+myAvatar.unlockProperty = Нажми, чтобы это свойство изменялось при использовании кнопки "Случайные опции"
+
+myAvatar.synchronizeHairColor.enable = Нажми, чтобы цвета волос автоматически синхронизировались
+myAvatar.synchronizeHairColor.disable = Нажми, чтобы отключить автоматическую синхронизацию цвета волос
+
+myAvatar.tabs.General = Общее
+myAvatar.tabs.Head = Голова
+myAvatar.tabs.BodyCharacteristic = Характеристики тела
+myAvatar.tabs.Underwear = Нижнее бельё
+myAvatar.tabs.Torso = Туловище
+myAvatar.tabs.Capes = Плащи
+myAvatar.tabs.Legs = Ноги
+myAvatar.tabs.FacialHair = Волосы на лице
+myAvatar.tabs.Eyebrows = Брови
+myAvatar.tabs.Face = Лицо
+myAvatar.tabs.Ears = Уши
+myAvatar.tabs.Mouth = Рот
+myAvatar.tabs.Eyes = Глаза
+myAvatar.tabs.Haircut = Причёска
+myAvatar.tabs.Pants = Штаны
+myAvatar.tabs.Overpants = Верхние штаны
+myAvatar.tabs.Undertop = Нижняя одежда
+myAvatar.tabs.Overtop = Верхняя одежда
+myAvatar.tabs.Shoes = Обувь
+myAvatar.tabs.SkinFeature = Особенность кожи
+myAvatar.tabs.HeadAccessory = Головной аксессуар
+myAvatar.tabs.FaceAccessory = Лицевой аксессуар
+myAvatar.tabs.EarAccessory = Ушной аксессуар
+myAvatar.tabs.Gloves = Перчатки
+myAvatar.tabs.Cape = Плащи
+myAvatar.tabs.Emotes = Эмоции
+
+myAvatar.baseProperties.bodyType = Тип тела
+myAvatar.baseProperties.skinTone = Тон кожи
+myAvatar.baseProperties.options = Опции
+
+myAvatar.baseProperties.bodyTypes.masculine = Мужской
+myAvatar.baseProperties.bodyTypes.feminine = Женский
+
+myAvatar.color = Цвет
+
+myAvatar.variant = Вариант
+
+myAvatar.dropdown.filterBy = Фильтровать по:
+
+myAvatar.lockedCosmetics = Заблокированная косметика
+
+myAvatar.unsavedChangesDialog.title = Несохранённые изменения
+myAvatar.unsavedChangesDialog.text = Ты внёс изменения в свой аватар, которые ещё не были сохранены.
+
+myAvatar.lockedCosmeticDialog.title = Выбран заблокированный косметический элемент
+myAvatar.lockedCosmeticDialog.text = Ты выбрал косметический элемент, который требует специального издания.\n\nТы можешь либо отменить этот выбор до последнего корректного выбора, либо\nотредактировать свой выбор, чтобы выбрать другой косметический элемент.
+myAvatar.lockedCosmeticDialog.undoButton = Отменить выбор
+myAvatar.lockedCosmeticDialog.editButton = Редактировать выбор
+
+myAvatar.failedToSaveDialog.title = Не удалось сохранить аватар!
+myAvatar.failedToSaveDialog.text = У нас возникли проблемы с сохранением твоего аватара.\n\nПожалуйста, попробуй позже.
+myAvatar.failedToSaveDialog.button.tryAgain = Попробовать снова сейчас
+myAvatar.failedToSaveDialog.button.ok = Ок
+
+myAvatar.entitlement.gameFounder.titleSuffix = Эксклюзив издания Cursebreaker
+myAvatar.entitlement.gameFounder.lockedMessage = Для использования этого элемента нужно издание Cursebreaker.
+myAvatar.entitlement.gameFounder.description = Эта часть эксклюзивна для издания Cursebreaker игры Hytale. Разблокируй её, улучшив своё текущее издание в магазине Hytale.
+
+myAvatar.entitlement.gameDeluxe.titleSuffix = Эксклюзив издания Supporter
+myAvatar.entitlement.gameDeluxe.lockedMessage = [TMP] Для использования этого элемента нужно издание Supporter.
+myAvatar.entitlement.gameDeluxe.description = Эта часть эксклюзивна для издания Supporter игры Hytale. Разблокируй её, улучшив своё текущее издание в магазине Hytale.
+
+myAvatar.entitlement.gameStandard.titleSuffix = Эксклюзив издания Early Access Standard
+myAvatar.entitlement.gameStandard.lockedMessage = [TMP] Для использования этого элемента нужно издание Early Access Standard.
+myAvatar.entitlement.gameStandard.description = Эта часть эксклюзивна для издания Early Access Standard игры Hytale. Разблокируй её, улучшив своё текущее издание в магазине Hytale.
+
+myAvatar.entitlement.default.lockedMessage = Ты не можешь использовать этот косметический элемент, так как он заблокирован.
+
+myAvatar.offline.title = Создатель аватара недоступен
+myAvatar.offline.description.offline = Ты находишься в автономном режиме.\nЧтобы использовать создателя аватара, перезапусти игру в онлайн-режиме.
+myAvatar.offline.description.connecting = Подключение к серверам Hytale, попробуй снова через мгновение...
+myAvatar.offline.description.unavailable = Создатель аватара в настоящее время недоступен, так как у нас возникли проблемы с подключением к серверам Hytale. Попробуй позже или перезапусти игру.
+
+# === settings ===
+settings.title = Настройки
+
+settings.tabs.general = Общие
+settings.tabs.video = Видео
+settings.tabs.audio = Аудио
+settings.tabs.mouse = Мышь
+settings.tabs.controls = Управление
+settings.tabs.gameplay = Игровой процесс
+settings.tabs.prototype = Прототип
+
+settings.groups.mouse = Мышь
+settings.groups.audioOutput = Вывод
+settings.groups.general = Общие
+settings.groups.gameplay = Игровой процесс
+settings.groups.rendering = Рендеринг
+settings.groups.advancedRendering = Продвинутый рендеринг
+settings.groups.ui = Пользовательский интерфейс
+settings.groups.development = Разработка
+settings.groups.language = Язык
+settings.groups.options = Опции
+settings.groups.controls.movement = Передвижение
+settings.groups.controls.actions = Действия
+settings.groups.controls.creative = Творчество
+settings.groups.controls.menus = Меню
+settings.groups.controls.blockPlacement = Размещение блоков
+settings.groups.controls.builderTools = Инструменты строителя
+settings.groups.controls.misc = Разное
+settings.groups.controls.debug = Отладка
+settings.groups.builderTools = Инструменты строителя
+settings.groups.movement = Передвижение
+settings.groups.mantling = Перелезание
+settings.groups.camera = Камера
+settings.groups.sprint = Сила бега
+settings.groups.slide = Сила скольжения
+settings.groups.stamina = Выносливость
+settings.groups.weaponPullback = Оттягивание оружия
+settings.groups.entityui = Интерфейс существ
+settings.groups.playselect = Инструмент выделения для игры
+settings.groups.playpaint = Инструмент рисования для игры
+settings.groups.paint = Рисование
+settings.groups.debug = Отладка
+settings.groups.mounts = Ездовые животные
+settings.groups.creativeMode = Творческий режим
+settings.groups.pickupLocations = Предпочтительные места подбора
+settings.groups.accessibility = Доступность
+
+settings.percentagePlayGizmoLength = Процент ширины для рендеринга гизмо
+settings.minPlaySelectGizmoSize = Минимальный размер гизмо
+settings.maxPlaySelectGizmoSize = Максимальный размер гизмо
+
+settings.paintOperationIgnoreHistoryLength = Длина игнорируемой истории для инструмента рисования
+
+# Quick Settings Categories
+settings.category.movementFlight = Передвижение и полёт
+settings.category.placementSettings = Настройки размещения
+settings.category.toolSettings = Настройки инструментов
+settings.category.brushSettings = Настройки кистей
+settings.category.soundSettings = Настройки аудио
+settings.category.selectionSettings = Настройки выделения
+settings.category.uiVisibility = Видимость интерфейса
+settings.category.displayNotifications = Отображение и уведомления
+
+# Quick Settings Labels
+settings.noClip = Проход сквозь блоки
+settings.flightMode = Режим полёта
+settings.flightMode.hover = Парение
+settings.flightMode.directional = Направленный
+settings.flightInertia = Инерция полёта
+settings.flightSpeedMultiplier = Скорость движения
+settings.airPlacement = Размещение в воздухе
+settings.allowNPCDetection = Разрешить обнаружение NPC
+settings.respondToHit = Реагировать на удары
+settings.toolReachDistance = Дальность действия инструмента
+settings.toolDelayMin = Минимальная задержка инструмента
+settings.brushOpacity = Прозрачность кисти
+settings.enableBrushShapeRendering = Включить отображение формы кисти
+settings.brushSoundsEnabled = Звуки кисти
+settings.brushSoundVolume = Громкость звуков кисти
+settings.selectionOpacity = Прозрачность выделения
+settings.selectionPanelOpacity = Прозрачность панели выделения
+settings.displayLegend = Отображать легенду
+settings.showToolNotifications = Показывать уведомления инструментов
+settings.laserPointerColor = Цвет лазерной указки
+settings.laserPointerColor.description = Стандартный hex-цвет для инструмента лазерной указки
+settings.fullbright = Полное освещение
+
+# Quick Settings UI
+settings.dragToReorder = Перетащи для изменения порядка
+settings.resetToDefaults = Сбросить к настройкам по умолчанию
+settings.resetToDefaults.tooltip = Сбросить все быстрые настройки к значениям по умолчанию
+
+settings.resetOptions = Сбросить опции
+settings.useSystemLanguage = Использовать системный язык
+settings.language = Язык
+settings.language.description = Устанавливает язык, отображаемый в игре.
+settings.fullscreen = Полноэкранный режим
+settings.noAuthName = Имя без авторизации
+settings.resolution = Разрешение
+settings.windowSize = Размер окна
+settings.windowResize = Выбери для изменения размера
+settings.customResolution = Пользовательское ({size})
+settings.graphicsPreset = Пресет графики
+settings.graphicsPreset.low = Низкий
+settings.graphicsPreset.low.description = Приоритет производительности над качеством.
+settings.graphicsPreset.medium = Средний
+settings.graphicsPreset.medium.description = Баланс качества и производительности.
+settings.graphicsPreset.high = Высокий
+settings.graphicsPreset.high.description = Приоритет качества над производительностью.
+settings.graphicsPreset.epic = Эпический
+settings.graphicsPreset.epic.description = Качество превыше всего.
+settings.graphicsPreset.custom = Пользовательский
+settings.maximized = Развёрнуто
+settings.vsync = Вертикальная синхронизация
+settings.vsync.description = Включение вертикальной синхронизации ограничит количество кадров в секунду частотой обновления твоего монитора.
+settings.fpsLimit = Максимум FPS
+settings.unlimitedFps = Неограниченный FPS
+settings.viewDistance = Дальность прорисовки
+settings.viewDistance.description = Дальность прорисовки определяет, как далеко ты можешь видеть.
+settings.viewDistance.performanceWarning = Рекомендуется: 64 ГБ ОЗУ и 16 ГБ видеопамяти.
+settings.fieldOfView = Поле зрения
+settings.sprintFovEffect = Эффект поля зрения при беге
+settings.sprintFovIntensity = Интенсивность эффекта поля зрения при беге
+settings.viewBobbingEffect = Эффект покачивания камеры
+settings.viewBobbingIntensity = Интенсивность покачивания камеры
+settings.cameraShakeEffect = Эффект тряски камеры
+settings.firstPersonCameraShakeIntensity = Интенсивность тряски камеры от первого лица
+settings.thirdPersonCameraShakeIntensity = Интенсивность тряски камеры от третьего лица
+settings.creativeInteractionDistance = Дистанция взаимодействия в творческом режиме
+settings.adventureInteractionDistance = Общая дистанция взаимодействия
+settings.gizmoScaleMultiplier = Масштаб интерфейса гизмо поворота/перемещения
+settings.laserPointerColor = Стандартный цвет лазерной указки
+settings.laserPointerColor.description = Стандартный hex-цвет для инструмента лазерной указки (например, #3CFAE6)
+settings.useBlockSubfaces = Использовать подграни блоков
+settings.displayBlockSubfaces = Отображать подграни блоков
+settings.displayBlockBoundaries = Отображать границы блоков
+settings.placeBlocksAtRange = Размещать блоки на расстоянии
+settings.placeBlocksAtRangeInAdventureMode = ---> Вне творческого режима
+settings.blockPlacementSupportValidation = Проверка опоры при размещении блоков
+settings.blockPlacementFluidity = Плавность размещения блоков в творческом режиме
+settings.resetMouseSensitivityDuration = Время возврата полной чувствительности мыши
+settings.automaticRenderScale = Автоматический масштаб рендеринга
+settings.automaticRenderScale.description = Определяет, устанавливать ли автоматически масштаб рендеринга на основе твоего GPU.
+settings.renderScale = Масштаб рендеринга
+settings.renderScale.description = Процент разрешения экрана для рендеринга игры.
+settings.placementPreview = Предпросмотр размещения блока
+settings.placementPreview.description = Определяет, для каких типов блоков будет отображаться предпросмотр размещения (при удержании блока в руке).\n\
+<b><color is="#f1ba50">Нет</color></b>: Предпросмотр никогда не будет отображаться.\n\
+<b><color is="#f1ba50">Все</color></b>: Предпросмотр будет отображаться для любого блока.\n\
+<b><color is="#f1ba50">Составные</color></b>: Предпросмотр будет отображаться только для блоков больше одного блока.
+settings.placementPreview.none = Нет
+settings.placementPreview.all = Все
+settings.placementPreview.multipart = Составные
+settings.displayCombatText = Показывать числа урона
+settings.displayCombatText.description = Показывать ли элементы, такие как числа урона, когда это включено на сервере. Если сервер отключает эту функцию, боевой текст не будет показан независимо от этой настройки.
+settings.displayEntityStatBars = Показывать полоски здоровья существ
+settings.displayEntityStatBars.description = Показывать ли интерфейс статус-бара (например, здоровье) над существами, когда это включено на сервере. Если сервер отключает эту функцию, полоски здоровья не будут показаны независимо от этой настройки.
+settings.displayNetworkQualityWarnings = Отображать предупреждения о качестве сети
+settings.displayNetworkQualityWarnings.description = Показывать ли иконки предупреждений о качестве сети в интерфейсе.
+settings.displayInputBindingsOnHud = Отображать привязки клавиш в интерфейсе
+settings.displayInputBindingsOnHud.description = Показывать ли контекстные привязки клавиш в интерфейсе.
+settings.hideHud = Скрыть интерфейс
+settings.hideHud.description = Скрыть все элементы интерфейса.
+settings.hideHotbar = Скрыть панель быстрого доступа
+settings.hideHotbar.description = Скрыть панель быстрого доступа и связанные элементы.
+settings.hideCompass = Скрыть компас
+settings.hideCompass.description = Скрыть компас.
+settings.hideNotifications = Скрыть уведомления
+settings.hideNotifications.description = Скрыть всплывающие уведомления.
+settings.hideChat = Скрыть чат
+settings.hideChat.description = Скрыть окно чата (не препятствует получению сообщений).
+settings.hideHeldItem = Скрыть предмет в руке
+settings.hideHeldItem.description = Скрыть предмет, удерживаемый в руке (вид от первого лица).
+settings.maxChatMessages = Максимум сообщений в чате
+settings.maxChatMessages.description = Определяет максимальное количество сообщений, хранящихся в чате.
+settings.cameraBasedFlying = Полёт относительно камеры
+settings.cameraBasedFlying.description = Определяет, как ведёт себя полёт.\n\
+<b><color is="#f1ba50">Вкл</color></b>: Ты будешь двигаться в зависимости от того, куда смотришь.\n\
+<b><color is="#f1ba50">Выкл</color></b>: Ты всегда будешь двигаться одинаково, независимо от того, куда смотришь.
+settings.showToolNotifications = Показывать уведомления инструментов
+settings.cameraShoulder = Плечо камеры
+settings.cameraShoulder.left = Левое
+settings.cameraShoulder.right = Правое
+settings.cameraShoulder.description = Устанавливает, через какое плечо смотреть от третьего лица.
+
+settings.lod = Детализация мира
+settings.lod.lowest = Самая низкая
+settings.lod.low = Низкая
+settings.lod.medium = Средняя
+settings.lod.high = Высокая
+settings.lod.maximum = Максимальная
+settings.lod.description = Управляет уровнем детализации в мире. Более высокие пресеты улучшают рендеринг объектов вдали, но серьёзно снижают производительность.
+settings.antialiasing = Сглаживание
+settings.antialiasing.description = Сглаживает края геометрии для улучшения качества изображения. При использовании меньшего масштаба рендеринга рекомендуется использовать высококачественное сглаживание.
+settings.antialiasing.off = Выкл
+settings.antialiasing.fxaa = Низкое (FXAA)
+settings.antialiasing.taa = Высокое (TAA)
+settings.shaderQuality = Качество шейдеров
+settings.shaderQuality.low = Низкое
+settings.shaderQuality.medium = Среднее
+settings.shaderQuality.high = Высокое
+settings.shaderQuality.description = Разрешение, используемое для эффектов освещения и затенения.
+settings.bloomQuality = Блум
+settings.bloomQuality.off = Выкл
+settings.bloomQuality.low = Низкий
+settings.bloomQuality.medium = Средний
+settings.bloomQuality.high = Высокий
+settings.bloomQuality.description = Блум добавляет эффект свечения вокруг интенсивных источников света. Более высокие пресеты улучшат качество эффекта, но не интенсивность.
+settings.dofQuality = Глубина резкости
+settings.dofQuality.off = Выкл
+settings.dofQuality.low = Низкая
+settings.dofQuality.medium = Средняя
+settings.dofQuality.high = Высокая
+settings.dofQuality.description = Размывает объекты не в фокусе на расстоянии
+settings.useSunshaft = Лучи солнца
+settings.useSunshaft.description = Показывает лучи солнца, пробивающиеся сквозь листву.
+settings.useFoliageFading = Затухание листвы
+settings.useFoliageFading.description = Включает затухание листвы на расстоянии для улучшения производительности и уменьшения мерцания.
+settings.shadowQuality = Качество теней
+settings.shadowQuality.low = Низкое
+settings.shadowQuality.medium = Среднее
+settings.shadowQuality.high = Высокое
+settings.shadowQuality.description = Управляет качеством теней в реальном времени и частотой их обновления.
+settings.particleQuality = Качество частиц
+settings.particleQuality.medium = Среднее
+settings.particleQuality.high = Высокое
+settings.particleQuality.description = Управляет качеством и плотностью эффектов частиц.
+settings.depthBuffer = Точность буфера глубины
+settings.depthBuffer.low = Низкая
+settings.depthBuffer.high = Высокая
+settings.depthBuffer.description = Управляет точностью глубины отрисованного изображения. Использование буфера глубины с более высокой точностью может помочь уменьшить мерцание объектов вдали.
+
+settings.joinCameraPref = Предпочтение камеры (при появлении)
+settings.joinCameraPref.description = Какой вид от камеры предпочесть при входе в мир.\n\
+Серверы могут переопределить это!
+settings.joinCameraPref.first = От первого лица
+settings.joinCameraPref.third = От третьего лица
+settings.joinCameraPref.lastUsed = Запомнить последний использованный
+
+settings.diagnosticMode = Режим диагностики
+settings.diagnosticMode.description = Включение режима диагностики рекомендуется, если ты планируешь создавать контент. Режим диагностики будет выводить больше сообщений об ошибках в неправильно настроенном контенте.
+
+settings.useBlockyModelShaderWorkaround = Обходной путь для блочных моделей
+settings.useBlockyModelShaderWorkaround.description = На некоторых Mac с оборудованием NVIDIA рендеринг моделей очень медленный без этого обходного пути. Для применения изменения требуется перезапуск игры.
+
+settings.mouseRawInputMode = Режим прямого ввода
+settings.mouseInverted = Инвертировать мышь
+settings.mouseXSpeed = Скорость вверх/вниз
+settings.mouseYSpeed = Скорость влево/вправо
+settings.invertMouseWheelScrollDirection = Инвертировать направление прокрутки колеса мыши
+settings.invertMouseWheelScrollDirection.description = Инвертирует направление прокрутки колеса мыши (в частности, используется при переключении слотов панели быстрого доступа).
+settings.outputDevice = Устройство вывода
+settings.masterVolume = Общая громкость
+settings.musicVolume = Громкость музыки
+settings.sfxVolume = Громкость звуковых эффектов
+settings.ambientVolume = Громкость окружения
+settings.uiVolume = Громкость интерфейса
+settings.outputMode = Режим вывода
+settings.outputMode.description = Управляет конфигурацией каналов аудиовывода.\n\
+<b><color is="#f1ba50">По умолчанию</color></b>: Автоматически выбирает лучший вариант для выбранного устройства вывода.
+settings.outputMode.default = По умолчанию
+settings.outputMode.stereo = Стерео (колонки)
+settings.outputMode.stereoHrtf = Стерео (наушники)
+settings.outputMode.mono = Моно
+settings.dynamicUiScaling = Динамическое масштабирование интерфейса
+settings.uiScale = Масштаб интерфейса
+
+settings.defaultAudioDevice = По умолчанию
+
+settings.bindingPopup.bind = Привязать "{binding}"
+settings.bindingPopup.pressKey = Нажми любую клавишу или Esc для отмены
+settings.bindings.clear = Удалить текущую привязку клавиши.
+
+settings.bindings.MoveForwards = Идти вперёд
+settings.bindings.MoveBackwards = Идти назад
+settings.bindings.StrafeLeft = Идти влево
+settings.bindings.StrafeRight = Идти вправо
+settings.bindings.Jump = Прыжок
+settings.bindings.Crouch = Присесть/Скользить/Кувырок
+settings.bindings.Crouch.description = <b>Скольжение</b>: Нажми эту клавишу во время бега для скольжения.\n<b>Кувырок</b>: Нажми эту клавишу при падении для кувырка.
+settings.bindings.Sprint = Бег
+settings.bindings.FlyUp = Лететь вверх
+settings.bindings.FlyDown = Лететь вниз
+settings.bindings.Walk = Ходьба
+settings.bindings.Chat = Переключить чат
+settings.bindings.ShowPlayerList = Показать список игроков
+settings.bindings.OpenInventory = Открыть инвентарь
+settings.bindings.OpenMap = Открыть карту
+settings.bindings.OpenDevTools = Открыть инструменты разработчика
+settings.bindings.DropItem = Выбросить предмет
+settings.bindings.ShowUtilitySlotSelector = Показать селектор слота утилиты
+settings.bindings.ToggleBuilderToolsLegend = Переключить легенду инструментов строителя
+settings.bindings.OpenToolsSettings = Открыть инструменты творчества
+
+settings.bindings.ToolPaintBrush = Инструмент кисти рисования
+settings.bindings.ToolSculptBrush = Инструмент кисти скульптора
+settings.bindings.ToolSelectionTool = Инструмент выделения
+settings.bindings.ToolPaste = Инструмент вставки
+settings.bindings.ToolLine = Инструмент линии
+
+settings.bindings.SwitchCameraMode = Переключить режим камеры
+settings.bindings.ActivateCameraRotation = Активировать поворот камеры
+settings.bindings.ToggleProfiling = Переключить профилирование
+settings.bindings.SwitchHudVisibility = Переключить видимость интерфейса
+settings.bindings.ToggleFullscreen = Переключить полноэкранный режим
+settings.bindings.Command = Команда
+settings.bindings.Command.description = Нажми, чтобы открыть окно чата с уже введённым '/' для ввода серверной команды. Список серверных команд доступен при вводе /help.
+settings.bindings.TakeScreenshot = Сделать скриншот
+settings.bindings.IncreaseSpeedMultiplier = Увеличить множитель скорости
+settings.bindings.DecreaseSpeedMultiplier = Уменьшить множитель скорости
+settings.bindings.ToggleCreativeCollision = Переключить столкновения в творческом режиме
+settings.bindings.ToggleFlyCamera = Переключить камеру полёта
+settings.bindings.ToggleDebugScreens = Переключить экраны отладки
+
+settings.bindings.BlockInteractAction = Взаимодействовать с блоком
+settings.bindings.RotateBlock = Повернуть блок
+settings.bindings.PrimaryItemAction = Основное действие
+settings.bindings.SecondaryItemAction = Вторичное действие
+settings.bindings.TertiaryItemAction = Третичное действие
+settings.bindings.PickBlock = Выбрать блок
+settings.bindings.SwitchGameMode = Переключить игровой режим
+settings.bindings.ToggleBlockPreview = Переключить предпросмотр блока
+settings.bindings.OpenMachinimaEditor = Открыть редактор машинимы
+settings.bindings.OpenBuilderToolsUI = Открыть интерфейс инструментов строителя
+settings.bindings.HotbarSlot1 = Слот панели быстрого доступа 1
+settings.bindings.HotbarSlot2 = Слот панели быстрого доступа 2
+settings.bindings.HotbarSlot3 = Слот панели быстрого доступа 3
+settings.bindings.HotbarSlot4 = Слот панели быстрого доступа 4
+settings.bindings.HotbarSlot5 = Слот панели быстрого доступа 5
+settings.bindings.HotbarSlot6 = Слот панели быстрого доступа 6
+settings.bindings.HotbarSlot7 = Слот панели быстрого доступа 7
+settings.bindings.HotbarSlot8 = Слот панели быстрого доступа 8
+settings.bindings.HotbarSlot9 = Слот панели быстрого доступа 9
+settings.bindings.Ability1ItemAction = Использовать способность 1
+settings.bindings.Ability2ItemAction = Использовать способность 2
+settings.bindings.Ability3ItemAction = Использовать способность 3
+settings.bindings.UndoItemAction = Отменить
+settings.bindings.RedoItemAction = Повторить
+settings.bindings.AddRemoveFavoriteMaterialItemAction = Добавить/удалить избранный материал
+settings.bindings.DismountAction = Сесть/слезть с ездового животного
+settings.bindings.AlternatePlaySculptBrushModeModifier = Изменить модификатор кисти скульптора
+settings.bindings.UsePaintModeForBrush = Использовать режим рисования для кисти
+settings.bindings.SelectBlockFromSet = Выбрать блок из набора
+settings.bindings.PastePreview = Предпросмотр вставки
+settings.bindings.ToggleFlyCameraControlTarget = Переключить цель управления камерой полёта
+settings.bindings.ToggleFlyCameraControlTarget.description = Переключает цель, управляемую камерой полёта, между самой камерой и игроком.
+settings.bindings.PreviousBuilderToolsLegendPage = Легенда - Предыдущая страница
+settings.bindings.NextBuilderToolsLegendPage = Легенда - Следующая страница
+
+settings.autoJumpObstacle = Автоматический подъём
+settings.autoJumpObstacle.description = При включении этой настройки ты будешь автоматически подниматься на блоки с максимальной высотой в 1 единицу.
+settings.enableUtilityQuickSwap = Включить быструю смену утилит
+settings.enableUtilityQuickSwap.description = При включении нажатие клавиши мгновенно переключит на следующий предмет в колесе утилит.
+settings.enableArachnophobiaMode = Включить режим арахнофобии
+settings.enableArachnophobiaMode.description = При включении пауки будут заменены другой моделью (по умолчанию на сервере это краб).\n\n<b><color is="#b32626">Для применения этой настройки необходимо вернуться в главное меню!</color></b>
+settings.autoJumpGap = Автоматически перепрыгивать через зазоры
+settings.builderMode = Режим строителя
+settings.builderMode.tooltip = Когда включено И в творческом режиме, отключает некоторые функции (например, эффекты падения, покачивание головы и т.д.)
+
+settings.mantling = Включить/отключить перелезание
+settings.minVelocityMantling = Минимальная скорость Y для перелезания
+settings.maxVelocityMantling = Максимальная скорость Y для перелезания
+settings.jumpForceSpeedMultiplierStep = Сила прыжка, добавляемая при каждом увеличении уровня скорости
+settings.maxJumpForceSpeedMultiplier = Максимальное значение, добавляемое к силе прыжка
+settings.mantlingCameraOffsetY = Смещение камеры при перелезании по Y
+settings.mantleBlockHeight = Высота блока для перелезания
+
+settings.sprintForce = Сила бега
+settings.sprintAccelerationDuration = Длительность ускорения
+settings.sprintDecelerationDuration = Длительность замедления
+settings.sprintAccelerationEasingType = Тип плавности ускорения
+settings.sprintDecelerationEasingType = Тип плавности замедления
+
+settings.slideDecelerationEasingType = Тип плавности замедления
+settings.slideDecelerationDuration = Длительность замедления
+
+settings.staminaLowAlertPercent = Процент предупреждения о низкой выносливости
+settings.staminaDebugInfo = Показывать информацию отладки выносливости
+
+settings.weaponPullback = Оттягивание оружия
+settings.itemAnimationsClipGeometry = Анимации предметов обрезают геометрию (для каждой анимации)
+settings.itemsClipGeometry = Предметы обрезают геометрию (для каждого предмета)
+settings.overrideFirstPersonAnimations = Использовать переопределённые анимации от первого лица
+
+settings.showEntityMarkers = Показывать маркеры существ
+
+settings.entityUIMaxEntities = Максимум существ
+settings.entityUIMaxDistance = Максимальная дистанция
+settings.entityUIHideDelay = Задержка скрытия
+settings.entityUIFadeInDuration = Длительность появления
+settings.entityUIFadeOutDuration = Длительность исчезновения
+
+settings.mountMinTurnRate = Мин. скорость поворота
+settings.mountMinTurnRate.tooltip = Минимальная скорость, с которой может поворачивать ездовое животное (градусов в секунду)
+settings.mountMaxTurnRate = Макс. скорость поворота
+settings.mountMaxTurnRate.tooltip = Максимальная скорость, с которой может поворачивать ездовое животное (градусов в секунду)
+settings.mountSpeedMinTurnRate = Скорость для мин. скорости поворота
+settings.mountSpeedMinTurnRate.tooltip = От этой скорости и выше будет применяться минимальная скорость поворота (больше скорость = медленнее поворот)
+settings.mountSpeedMaxTurnRate = Скорость для макс. скорости поворота
+settings.mountSpeedMaxTurnRate.tooltip = От этой скорости и ниже будет применяться максимальная скорость поворота (больше скорость = медленнее поворот)
+settings.mountForwardsAccelerationEasingType = Тип плавности ускорения вперёд
+settings.mountForwardsAccelerationEasingType.tooltip = Кривая плавности для ускорения вперёд
+settings.mountForwardsDecelerationEasingType = Тип плавности замедления вперёд
+settings.mountForwardsDecelerationEasingType.tooltip = Кривая плавности для замедления вперёд
+settings.mountBackwardsAccelerationEasingType = Тип плавности ускорения назад
+settings.mountBackwardsAccelerationEasingType.tooltip = Кривая плавности для ускорения назад
+settings.mountBackwardsDecelerationEasingType = Тип плавности замедления назад
+settings.mountBackwardsDecelerationEasingType.tooltip = Кривая плавности для замедления назад
+settings.mountForwardsAccelerationDuration = Длительность ускорения вперёд
+settings.mountForwardsAccelerationDuration.tooltip = Время, необходимое для достижения максимальной скорости при движении вперёд
+settings.mountForwardsDecelerationDuration = Длительность замедления вперёд
+settings.mountForwardsDecelerationDuration.tooltip = Время, необходимое для достижения состояния покоя после движения вперёд
+settings.mountBackwardsAccelerationDuration = Длительность ускорения назад
+settings.mountBackwardsAccelerationDuration.tooltip = Время, необходимое для достижения максимальной скорости при движении назад
+settings.mountBackwardsDecelerationDuration = Длительность замедления назад
+settings.mountBackwardsDecelerationDuration.tooltip = Время, необходимое для достижения состояния покоя после движения назад
+settings.mountForcedAccelerationMultiplierSetting = Множитель принудительного ускорения
+settings.mountForcedAccelerationMultiplierSetting.tooltip = Множитель, используемый для уменьшения длительности ускорения при нажатии клавиши бега во время движения
+settings.mountForcedDecelerationMultiplierSetting = Множитель принудительного замедления
+settings.mountForcedDecelerationMultiplierSetting.tooltip = Множитель, используемый для уменьшения длительности замедления при нажатии противоположной клавиши движения от текущей скорости
+settings.mountRequireNewInput = Требовать нового ввода после принудительного замедления
+settings.mountRequireNewInput.tooltip = Нужно ли отпустить и нажать клавишу движения снова, чтобы двигаться после принудительного замедления
+settings.displayTempPrefix = Показывать теги [TMP] на тексте
+
+settings.armorItemsPickupLocation = Предметы брони
+settings.armorItemsPickupLocation.description = Определяет место для приоритетного размещения предметов при подборе.\n\
+<b><color is="#f1ba50">Панель быстрого доступа</color></b>: Новые предметы сначала попадут на панель быстрого доступа, после заполнения — в инвентарь.\n\
+<b><color is="#f1ba50">Инвентарь</color></b>: Новые предметы сначала попадут в инвентарь, после заполнения — на панель быстрого доступа.
+
+settings.weaponAndToolItemsPickupLocation = Предметы оружия и инструментов
+settings.weaponAndToolItemsPickupLocation.description = Определяет место для приоритетного размещения предметов при подборе.\n\
+<b><color is="#f1ba50">Панель быстрого доступа</color></b>: Новые предметы сначала попадут на панель быстрого доступа, после заполнения — в инвентарь.\n\
+<b><color is="#f1ba50">Инвентарь</color></b>: Новые предметы сначала попадут в инвентарь, после заполнения — на панель быстрого доступа.
+
+settings.usableItemsPickupLocation = Используемые предметы
+settings.usableItemsPickupLocation.description = Определяет место для приоритетного размещения предметов при подборе.\n\
+<b><color is="#f1ba50">Панель быстрого доступа</color></b>: Новые предметы сначала попадут на панель быстрого доступа, после заполнения — в инвентарь.\n\
+<b><color is="#f1ba50">Инвентарь</color></b>: Новые предметы сначала попадут в инвентарь, после заполнения — на панель быстрого доступа.
+
+settings.solidBlockItemsPickupLocation = Предметы твёрдых блоков
+settings.solidBlockItemsPickupLocation.description = Определяет место для приоритетного размещения предметов при подборе.\n\
+<b><color is="#f1ba50">Панель быстрого доступа</color></b>: Новые предметы сначала попадут на панель быстрого доступа, после заполнения — в инвентарь.\n\
+<b><color is="#f1ba50">Инвентарь</color></b>: Новые предметы сначала попадут в инвентарь, после заполнения — на панель быстрого доступа.
+
+settings.miscItemsPickupLocation = Разные предметы
+settings.miscItemsPickupLocation.description = Определяет место для приоритетного размещения предметов при подборе.\n\
+<b><color is="#f1ba50">Панель быстрого доступа</color></b>: Новые предметы сначала попадут на панель быстрого доступа, после заполнения — в инвентарь.\n\
+<b><color is="#f1ba50">Инвентарь</color></b>: Новые предметы сначала попадут в инвентарь, после заполнения — на панель быстрого доступа.
+
+settings.pickupLocation.hotbar = Панель быстрого доступа
+settings.pickupLocation.storage = Инвентарь
+
+settings.cameraBasedClimbing = Лазание относительно камеры
+settings.cameraBasedClimbing.description = Определяет, как ведёт себя лазание.\n\
+<b><color is="#f1ba50">Вкл</color></b>: При нажатии вперёд ты будешь двигаться в зависимости от того, куда смотришь.\n\
+<b><color is="#f1ba50">Выкл</color></b>: Ты всегда будешь двигаться одинаково, независимо от того, куда смотришь.
+
+settings.crouchBehavior = Поведение приседания
+settings.sprintBehavior = Поведение бега
+settings.walkBehavior = Поведение ходьбы
+settings.inputMode.hold = Удерживать
+settings.inputMode.toggle = Переключать
+
+settings.resetToDefaultsConfirmationModal.title = Сбросить настройки
+settings.resetToDefaultsConfirmationModal.text = Ты уверен, что хочешь сбросить все настройки к значениям по умолчанию?
+
+# === timeline ===
+timeline.frame = Кадр
+timeline.currentFrame = Кадр: {frame, number}
+
+timeline.tabs.properties = Свойства
+timeline.tabs.events = События
+
+timeline.toolbar.addActor = Добавить актёра
+timeline.toolbar.restart = Перезапустить ({keybind})
+timeline.toolbar.togglePause = Переключить паузу ({keybind})
+timeline.toolbar.toggleLoop = Переключить зацикливание
+
+timeline.events.add = Добавить событие
+
+# === Feedback Dialog ===
+feedback.title = Отправить сообщение об ошибке или отзыв
+feedback.selectType = Что бы ты хотел отправить?
+
+feedback.feedback.title = Отправить отзыв
+feedback.feedback.description = Помоги нам улучшить Hytale, поделившись своими мыслями и предложениями.
+feedback.feedback.button.label = Отзыв
+feedback.feedback.button.tooltip = Отправить отзыв
+
+feedback.bugreport.title = Сообщить об ошибке
+feedback.bugreport.description = Нашёл что-то, что не работает? Сообщи нам, чтобы мы могли это исправить.
+feedback.bugreport.button.label = Сообщить об ошибке
+feedback.bugreport.button.tooltip = Сообщить об ошибке
+feedback.bugreport.includeLogFile = Включить текущий лог-файл
+
+feedback.type.feedback = Отзыв
+feedback.type.bugreport = Отчёт об ошибке
+
+feedback.warning.abuse = Злоупотребление функцией отчётов об ошибках и отзывов может привести к приостановке аккаунта.
+
+feedback.field.type = Тип
+feedback.field.summary = Краткое описание
+feedback.field.summary.placeholder = Краткое описание твоего отзыва или ошибки
+feedback.field.description = Описание
+feedback.field.description.placeholder = Предоставь подробную информацию о твоём отзыве или отчёте об ошибке
+feedback.field.attachments = Вложения
+
+feedback.attachments.addScreenshot = Добавить скриншоты
+feedback.attachments.addLogFile = Добавить дополнительные лог-файлы
+feedback.attachments.selectScreenshot = Выбери скриншоты для прикрепления
+feedback.attachments.selectLogFile = Выбери лог-файлы для прикрепления
+
+feedback.submit = Отправить
+feedback.submitting = Отправка...
+
+feedback.error.summaryRequired = Пожалуйста, введи краткое описание
+feedback.error.descriptionRequired = Пожалуйста, введи описание
+feedback.error.unknown = Произошла ошибка. Пожалуйста, попробуй снова.
+feedback.error.maxAttachments = Ты можешь прикрепить до 3 файлов
+feedback.error.fileTooLarge = "{file}" слишком большой ({size} МБ). Максимальный размер файла — {maxSize}
+feedback.error.invalidFileType = "{file}" не является поддерживаемым типом файла. Разрешены только файлы .jpg, .jpeg, .png и .log
+feedback.error.fileNotFound = "{file}" не может быть найден
+feedback.error.fileError = Не удалось прочитать "{file}"
+
+feedback.success.title = Спасибо!
+feedback.success.feedback = Твой отзыв успешно отправлен. Мы ценим твоё мнение!
+feedback.success.bugreport = Твой отчёт об ошибке успешно отправлен. Мы разберёмся с этим!
+feedback.success.submitMore = Отправить ещё
+
+bugReportButton.tooltip = Сообщить об ошибке или оставить отзыв
