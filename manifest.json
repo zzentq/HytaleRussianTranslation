@@ -1,0 +1,18 @@
+{
+  "Group": "ZENT",
+  "Name": "RussianLanguage",
+  "Version": "1.0.0",
+  "Description": "Добавляет русский язык в Hytale",
+  "Authors": [
+    {
+      "Name": "ZENT",
+      "Email": "zzentq@gmail.com",
+      "Url": "https://github.com/zzentq"
+    }
+  ],
+  "Website": "https://github.com/zzentq/HytaleRussianTranslation",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false
+}
