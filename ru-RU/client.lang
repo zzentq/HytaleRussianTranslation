@@ -1203,9 +1203,9 @@ hud.chat.openLinkModal.confirm = Открыть веб-сайт
 
 # === inventory ===
 inventory.chest.title = Сундук
-inventory.chest.tooltip.takeAll = Взять всё - Переместить все предметы из контейнера в инвентарь.
-inventory.chest.tooltip.putAll = Положить всё - Переместить все предметы из инвентаря в контейнер.
-inventory.chest.tooltip.quickStack = Быстрая сортировка - Переместить предметы из инвентаря в контейнер для типов предметов, уже присутствующих в нём.
+inventory.chest.tooltip.takeAll = Взять всё - Переместить все предметы из сундука в инвентарь.
+inventory.chest.tooltip.putAll = Положить всё - Переместить все предметы из инвентаря в сундук.
+inventory.chest.tooltip.quickStack = Быстрая сортировка - Переместить предметы из инвентаря в сундук для типов предметов, уже присутствующих в нём.
 
 inventory.inventory.title = Инвентарь
 inventory.itemQuantityPopup.title = Разделить стопку:
@@ -1830,9 +1830,6 @@ settings.brushSoundVolume = Громкость звуков кисти
 settings.selectionOpacity = Прозрачность выделения
 settings.selectionPanelOpacity = Прозрачность панели выделения
 settings.displayLegend = Отображать легенду
-settings.showToolNotifications = Показывать уведомления инструментов
-settings.laserPointerColor = Цвет лазерной указки
-settings.laserPointerColor.description = Стандартный hex-цвет для инструмента лазерной указки
 settings.fullbright = Полное освещение
 
 # Quick Settings UI
