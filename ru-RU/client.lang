@@ -1160,8 +1160,8 @@ hud.itemSlotSelector.noItem = Нет предмета
 hud.itemSlotSelector.empty = Пусто
 hud.itemSlotSelector.invalidItem = Недопустимый предмет
 
-hud.entityEffects.defaultBuffName = Бафф
-hud.entityEffects.defaultDebuffName = Дебафф
+hud.entityEffects.defaultBuffName = Усиление
+hud.entityEffects.defaultDebuffName = Ослабление
 
 hud.portalPanel.title = {name}
 hud.portalPanel.portalLabel = Фрагмент Орбиса
