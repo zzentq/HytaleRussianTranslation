@@ -1311,14 +1311,14 @@ itemTooltip.stats.FireResistance = Сопротивление огню
 itemTooltip.stats.WaterResistance = Сопротивление воде
 itemTooltip.stats.EarthResistance = Сопротивление земле
 itemTooltip.stats.AirResistance = Сопротивление воздуху
-itemTooltip.stats.SignatureEnergy = Энергия подписи
+itemTooltip.stats.SignatureEnergy = Энергия особой атаки
 itemTooltip.stats.Ammo = Боеприпасы
-itemTooltip.stats.SignatureCharges = Заряды подписи
+itemTooltip.stats.SignatureCharges = Заряды особой атаки
 
 itemTooltip.damageClass.unknown = Неизвестно
 itemTooltip.damageClass.light = Лёгкая атака
 itemTooltip.damageClass.charged = Заряженная атака
-itemTooltip.damageClass.signature = Подписная атака
+itemTooltip.damageClass.signature = Особая атака
 
 itemTooltip.increases = Увеличивает
 itemTooltip.decreases = Уменьшает
