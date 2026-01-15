@@ -14,7 +14,7 @@
 Актуальную версию русификатора можно скачать:
 
 - 👉 **[GitHub Releases](https://github.com/zzentq/HytaleRussianTranslation/releases)**
-- 👉 **[CurseForge](https://legacy.curseforge.com/hytale/mods/hytale-ru)**
+- 👉 **[CurseForge](https://curseforge.com/hytale/mods/hytale-ru)**
 
 > Файл имеет вид: `Hytale-Russian_Vx.x.x.zip`
 
